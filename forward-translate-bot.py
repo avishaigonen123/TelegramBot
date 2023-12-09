@@ -20,36 +20,58 @@ client = TelegramClient(session_name, api_id, api_hash)
 @client.on(events.NewMessage(chats=source_channel_id))
 async def translate_and_forward(event):
     message = event.message
+    if message.text:  # maybe there would be a picture without text
+        #print(f"Translating and forwarding message with ID: {message.id}.")
+        #print(message.text)
+        # Translate the message text to Hebrew
+        translator = Translator()
+        # Use message.text directly
+        translated_text = translator.translate(message.text, dest='he').text
 
-    print(f"Translating and forwarding message with ID: {message.id}.")
-    print(message.text)
-    # Translate the message text to Hebrew
+        #print(f"Translated Text: {translated_text}")  # Print the translated text for debugging
+        message.text = translated_text
+    await client.send_message(destination_channel_id, message)
+
+
+                  
+async def findGroup(GroupID: int):
+    async for i in client.iter_dialogs(folder=0):
+        if i.id==GroupID:
+            return i
+        
+
+
+async def main():
     translator = Translator()
-    # Use message.text directly
-    translated_text = translator.translate(message.text, dest='he').text
 
-    print(f"Translated Text: {translated_text}")  # Print the translated text for debugging
+    source_channel = await findGroup(source_channel_id)
+    destination_channel = await findGroup(destination_channel_id)
 
- # If the message has a photo, forward it with translated caption
-    if message.photo:
-        # Forward the message with the translated text as the caption
-        await client.send_message(destination_channel_id, translated_text, file=message.photo)
+    if source_channel.unread_count!=0:
+        count=source_channel.unread_count
+        mess=[]
+        async for i in client.iter_messages(source_channel,count):
+            if not (i.action):#patched.Message.
+                    mess+=[i]
+        mess.reverse()
+        if len(mess)>0:
+           for i in mess:
+                sendMes=i
+                if(sendMes.text):
+                    sendMes.text=translator.translate(sendMes.text, dest='he').text
+                await client.send_message(destination_channel,sendMes)
+                await client.send_read_acknowledge(source_channel,max_id=i.id)
 
-
-    # If the message has a video, forward it with translated caption
-    elif message.video:
-        # Forward the message with the translated text as the caption
-        await client.send_message(destination_channel_id, translated_text, file=message.video)
-
-
-    # If the message is text only, forward the translated text
-    else:
-        # Forward the message with the translated text as the message text
-        await client.send_message(destination_channel_id, translated_text)
-
-
+    #else: print("not found new messages")
+    
+    #translation = translator.translate("Der Himmel ist blau und ich mag Bananen", dest='he')
+    #print(translation.text)
+    
 
 
 client.start("+972585328077")
-# Start the userbot
+# Run the main function once before starting the event loop
+client.loop.run_until_complete(main()) # i want that first it will send all the unread messages, and then it will use the event mechanic.
+
+# Start the userbot and run the event loop
 client.run_until_disconnected()

@@ -2,7 +2,7 @@ from googletrans import Translator
 from telethon import TelegramClient, events, types
 
 # Replace '22426045' and 'e7b8ee99e8bf9c36984d18f1baae5591' with your actual API ID and API hash
-api_id = 22426045
+api_id = 22426045   
 api_hash = 'e7b8ee99e8bf9c36984d18f1baae5591'
 
 # Replace 'mySession' with a unique session name
@@ -69,7 +69,8 @@ async def main():
     
 
 
-client.start("+972585328077")
+client.start("+972585328077") # here enter your phone number, in the first time you would need to give the code from telegram, each time you create a new session
+
 # Run the main function once before starting the event loop
 client.loop.run_until_complete(main()) # i want that first it will send all the unread messages, and then it will use the event mechanic.
 

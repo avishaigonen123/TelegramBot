@@ -35,9 +35,9 @@ async def translate_and_forward(event):
 
             mess=[]
             async for i in client.iter_messages(source_channel,count):
-                if not (i.action): # and i not in mess:#patched.Message.
+                if not (i.action): #patched.Message.
                     mess.insert(0,i)
-                    print(i)
+                #    print(i)
 
             if len(mess)>0:
                 for i in mess:
@@ -66,7 +66,7 @@ async def main():
         count=source_channel.unread_count
         mess=[]
         async for i in client.iter_messages(source_channel,count):
-            if not (i.action): #and i not in mess:#patched.Message.
+            if not (i.action): #patched.Message.
                 mess.insert(0,i)
 
         if len(mess)>0:

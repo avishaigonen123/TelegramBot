@@ -1,6 +1,8 @@
 
 from googletrans import Translator
 from telethon import TelegramClient, events, types
+import fcntl
+from pathlib import Path
 
 # Replace '22426045' and 'e7b8ee99e8bf9c36984d18f1baae5591' with your actual API ID and API hash
 api_id = 22426045

@@ -11,7 +11,7 @@ session_name = 'gonenSession'
 sessions_list = ['gonenSession934705', 'gonenSession557142', 'gonenSession789754', 'gonenSession562588', 'gonenSession530415']
 
 # Replace '-1001300814792' with the actual chat ID of the source channel
-source_channel_id = -1001457341547
+source_channel_id = -1001236978606
 
 # Replace '-1002027365084' with the actual chat ID of your bot's channel
 destination_channel_id = -1002046754990

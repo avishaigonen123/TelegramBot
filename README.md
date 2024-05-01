@@ -14,3 +14,7 @@ i added vbscript files, to run the script without command window.
 
 
 #פלסטיןחינם
+
+
+Now i also added another channel, to gada news
+https://t.me/jeninnews1

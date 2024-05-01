@@ -11,7 +11,7 @@ session_name = 'gonenSession'
 sessions_list = ['gonenSession934705', 'gonenSession557142', 'gonenSession789754', 'gonenSession562588', 'gonenSession530415']
 
 # Replace '-1001300814792' with the actual chat ID of the source channel
-source_channel_id = -1001236978606
+source_channel_id = -1001457341547
 
 # Replace '-1002027365084' with the actual chat ID of your bot's channel
 destination_channel_id = -1002046754990
@@ -19,17 +19,15 @@ destination_channel_id = -1002046754990
 # Create a TelegramClient instance
 client = TelegramClient(sessions_list[random.randint(0,len(sessions_list)-1)], api_id, api_hash) 
 
-
 async def findGroup(GroupID: int):
     async for i in client.iter_dialogs(folder=0):
         if i.id==GroupID:
             return i
-        
 
 async def main():
     translator = Translator()
 
-    source_channel = await findGroup(source_channel_id)
+    source_channel = await findGroup(source_channel_id) # becuase it's a group
     destination_channel = await findGroup(destination_channel_id)
 
     if source_channel.unread_count!=0:

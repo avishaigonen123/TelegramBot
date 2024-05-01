@@ -1,2 +1,2 @@
-cd /home/aiboazqv
-python /home/aiboazqv/bot.py
+cd /home/TelegramBot/aiboazqv
+python /home/aiboazqv/TelegramBot/bot.py

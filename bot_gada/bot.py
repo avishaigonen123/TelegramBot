@@ -1,14 +1,14 @@
+import config
 from googletrans import Translator
 from telethon import TelegramClient, events, types
 import random
 
-# Replace '22426045' and 'e7b8ee99e8bf9c36984d18f1baae5591' with your actual API ID and API hash
-api_id = 22426045
-api_hash = 'e7b8ee99e8bf9c36984d18f1baae5591'
+api_id = config.API_ID
+api_hash = config.API_HASH
 
 # Replace 'mySession' with a unique session name
 session_name = 'gonenSession'
-sessions_list = ['gonenSession934705', 'gonenSession557142', 'gonenSession789754', 'gonenSession562588', 'gonenSession530415']
+sessions_list = ['gonenSession789754', 'gonenSession562588', 'gonenSession530415']
 
 # Replace '-1001300814792' with the actual chat ID of the source channel
 source_channel_id = -1001236978606
@@ -19,15 +19,17 @@ destination_channel_id = -1002046754990
 # Create a TelegramClient instance
 client = TelegramClient(sessions_list[random.randint(0,len(sessions_list)-1)], api_id, api_hash) 
 
+
 async def findGroup(GroupID: int):
     async for i in client.iter_dialogs(folder=0):
         if i.id==GroupID:
             return i
+        
 
 async def main():
     translator = Translator()
 
-    source_channel = await findGroup(source_channel_id) # becuase it's a group
+    source_channel = await findGroup(source_channel_id)
     destination_channel = await findGroup(destination_channel_id)
 
     if source_channel.unread_count!=0:

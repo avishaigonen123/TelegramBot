@@ -1,3 +1,3 @@
-cd /home/aiboazqv/TelegramBot/bot_zaken
-python /home/aiboazqv/TelegramBot/bot_zaken/DOS_zaken.py
+cd /home/aiboazqv/bot_zaken
+python /home/aiboazqv/bot_zaken/DOS_zaken.py
 

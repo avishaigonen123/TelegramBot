@@ -52,4 +52,3 @@ async def main():
 client.start("+972585328077")
 # Run the main function once before starting the event loop
 client.loop.run_until_complete(main()) # i want that first it will send all the unread messages, and then it will use the event mechanic.
-

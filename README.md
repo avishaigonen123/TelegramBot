@@ -26,7 +26,7 @@ how to add to my server?
 ```
 git clone https://github.com/avishaigonen123/TelegramBot.git
  
-python3 -m pip install --user googletrans
+python3 -m pip install --user googletrans==4.0.0-rc1
 
 python3 -m pip install --user telethon
 ```

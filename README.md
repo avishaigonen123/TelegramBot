@@ -36,3 +36,11 @@ python3 -m pip install --user telethon
 - in the cron job insert this line:
 
 `python3 /home/gmxceisz/TelegramBot/bot_zaken/DOS_zaken.py > /dev/null`
+
+also, in the first time you will set it after long time, you'll need to intilize the session files.
+thus, you can enter the directory, eg, bot_gada, and then run the command: `./remove_sessions.sh`
+
+after this running `python3 create_sessions.py`, then you'll create 5 sessions, you will need to give him the secret code telegram sends you.
+
+It might take a while... the idea is that you will use more sessions, randomly, then reduce the risk for getting blocked.
+at the end, open the bot.py file and change the sessions list.

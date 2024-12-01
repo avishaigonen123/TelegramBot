@@ -35,7 +35,12 @@ python3 -m pip install --user telethon
 
 - in the cron job insert this line:
 
-`python3 /home/gmxceisz/TelegramBot/bot_zaken/DOS_zaken.py > /dev/null`
+`bash /home/gmxceisz/TelegramBot/bot_palastine/script_bot.sh > /dev/null`
+when the ***script_bot.sh*** file contains:
+```
+cd /home/gmxceisz/TelegramBot/bot_gada
+python3 /home/gmxceisz/TelegramBot/bot_gada/bot.py
+```
 
 also, in the first time you will set it after long time, you'll need to intilize the session files.
 thus, you can enter the directory, eg, bot_gada, and then run the command: `./remove_sessions.sh`

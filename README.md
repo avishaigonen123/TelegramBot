@@ -13,7 +13,7 @@ This project includes a set of Telegram bots designed to automate various tasks 
 ## 🛠 How to Create Your Own Telegram Bot
 Follow these steps to create and set up your own Telegram bot:
 
-### Set Up the Bot on Your Server
+### 1️⃣ Set Up the Bot on Your Server
 1. 📥 Clone this repository:
    ```bash
    git clone https://github.com/avishaigonen123/TelegramBot.git
@@ -50,17 +50,18 @@ Follow these steps to create and set up your own Telegram bot:
    python bot.py
    ```
 
-### Deploying the Bot Online
+### 2️⃣ Deploying the Bot Online
 To keep the bot running 24/7, you may deploy it on a cloud server. A free option is **webhostmost.com**, which provides free hosting services.
 
 ## 🔗 Join Our Telegram Groups
 Stay updated and get support by joining our Telegram groups:
 - 📢 **Jenin News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
-- 📢 **Gaza News:** [Join Here](https://t.me/+_b4ZozXYKi41OGM0)
-- 📢 **Kalkilia News:** [Join Here](https://t.me/+OfUzBG9yTZU1MDk0)
-- 📢 **Tubas News:** [Join Here](https://t.me/+4UH5xt-sfTQyMDNk)
-- 📢 **Suria News:** [Join Here](https://t.me/+MPKAi42velpmMGI0)
 
+## 📸 Telegram Channels
+Here are images of our official Telegram channels:
+
+![📷 Channel 1](channel1_image.png)
+![📷 Channel 2](channel2_image.png)
 
 ## 📜 License
 This project is licensed under the MIT License. Feel free to contribute and improve it!

@@ -1,4 +1,4 @@
-folder="bot_example"
+folder="bot_tulcarem"
 user=$(whoami)
 
 cd "/home/$user/TelegramBot/$folder"

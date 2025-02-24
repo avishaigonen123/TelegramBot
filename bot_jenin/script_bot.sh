@@ -1,2 +1,5 @@
-cd /home/gmxceisz/TelegramBot/bot_jenin
-python3 /home/gmxceisz/TelegramBot/bot_jenin/bot.py
+folder="bot_jenin"
+user=$(whoami)
+
+cd "/home/$user/TelegramBot/$folder"
+python3 "/home/$user/TelegramBot/$folder/bot.py"

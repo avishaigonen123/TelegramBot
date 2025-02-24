@@ -59,17 +59,11 @@ To automate script execution, you can use **cron jobs**. The bot scripts run onc
 ## 🔗 Join Our Telegram Groups
 Stay updated and get support by joining our Telegram groups:
 - 📢 **Jenin News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
-- 📢 **Kalkilia News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
-- 📢 **Tubas News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
-- 📢 **Nablus News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
-- 📢 **Gaza News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
-- 📢 **Suria News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
-
-## 📸 Telegram Channels
-Here are images of our official Telegram channels:
-
-![📷 Channel 1](channel1_image.png)
-![📷 Channel 2](channel2_image.png)
+- 📢 **Kalkilia News:** [Join Here](https://t.me/+OfUzBG9yTZU1MDk0)
+- 📢 **Tubas News:** [Join Here](https://t.me/+4UH5xt-sfTQyMDNk)
+- 📢 **Nablus News:** [Join Here](https://t.me/+9vULSIuHQ7RlYjI0)
+- 📢 **Gaza News:** [Join Here](https://t.me/+_b4ZozXYKi41OGM0)
+- 📢 **Suria News:** [Join Here](https://t.me/+MPKAi42velpmMGI0)
 
 ## 📜 License
 This project is licensed under the MIT License. Feel free to contribute and improve it!

@@ -1,0 +1,9 @@
+# remove config files
+*/config.py
+
+#remove sessions files
+*.session
+
+#remove python cache
+__pycache__/
+

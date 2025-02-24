@@ -1,51 +1,71 @@
-# TelegramBot
-telegram bot translate and forward
+# Telegram Translator Bot Project
 
-simple program that use my user in telegram (this isn't a bot), 
-this translate messages from a secret channel (https://t.me/SamaNewsAgency), 
-and forward this into my channel :)
+Welcome to the **Telegram Translator Bot Project**! 🚀
+This project includes a set of Telegram bots designed to automate various tasks efficiently, with the main purpose of providing a concise way to consume news from various media sources.
 
-Here you enter to get the api data of your user.
-https://my.telegram.org/auth?to=apps
+## 📌 Features
+- 📩 Automated message handling
+- 🔧 Custom commands and responses
+- 🌐 Integration with external APIs
+- 🛠 Easy to deploy and customize
+- 🌎 Auto Translation from every language to every language
 
-you need to change the path to your python, in the run_bot.bat file.
+## 🛠 How to Create Your Own Telegram Bot
+Follow these steps to create and set up your own Telegram bot:
 
-i added vbscript files, to run the script without command window.
+### 1️⃣ Set Up the Bot on Your Server
+1. 📥 Clone this repository:
+   ```bash
+   git clone https://github.com/avishaigonen123/TelegramBot.git
+   cd TelegramBot
+   ```
+2. 📦 Install dependencies:
+   ```bash
+   python3 -m pip install --user googletrans==4.0.0-rc1
+   python3 -m pip install --user telethon
+   ```
+3. 📝 Create a `config.py` file by copying `config_sample.py` and updating your details:
+   ```bash
+   cp config_sample.py config.py
+   ```
+   Update `config.py` with your API details:
+   ```python
+   API_ID = <your_api_id>
+   API_HASH = '<your_api_hash>'
+   PHONE_NUMBER = '<your_phone_number>'
+   SOURCE_CHANNEL_ID = <source_channel_id>
+   DEST_CHANNEL_ID = <destination_channel_id>
+   ```
+4. 🔑 Run the `create_sessions.py` script to generate session files:
+   ```bash
+   python create_sessions.py
+   ```
+   You will receive a secret code on your Telegram application for each session. Enter this code into the program to create a session.
+   Take the session names printed by the script and add them to `bot.py`:
+   ```python
+   sessions_list = ['your_session_1.session', 'your_session_2.session', 'your_session_3.session']
+   ```
+5. ▶️ Run the bot:
+   ```bash
+   python bot.py
+   ```
 
+### 2️⃣ Deploying the Bot Online
+To keep the bot running 24/7, you may deploy it on a cloud server. A free option is **webhostmost.com**, which provides free hosting services.
 
+## 🔗 Join Our Telegram Groups
+Stay updated and get support by joining our Telegram groups:
+- 📢 **Jenin News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
+![📷 Channel 1](Jenin_tg.png)
 
-#פלסטיןחי
+## 📸 Telegram Channels
+Here are images of our official Telegram channels:
 
+![📷 Channel 2](channel2_image.png)
 
-Now i also added another channel, to gada news
-https://t.me/jeninnews1
+## 📜 License
+This project is licensed under the MIT License. Feel free to contribute and improve it!
 
+---
+For any issues or questions, feel free to reach out and open an issue! 💬
 
-how to add to my server?
-
-```
-git clone https://github.com/avishaigonen123/TelegramBot.git
- 
-python3 -m pip install --user googletrans==4.0.0-rc1
-
-python3 -m pip install --user telethon
-```
-
-- set up the config file with my credentials from telegram
-
-- in the cron job insert this line:
-
-`bash /home/gmxceisz/TelegramBot/bot_palastine/script_bot.sh > /dev/null`
-when the ***script_bot.sh*** file contains:
-```
-cd /home/gmxceisz/TelegramBot/bot_gada
-python3 /home/gmxceisz/TelegramBot/bot_gada/bot.py
-```
-
-also, in the first time you will set it after long time, you'll need to intilize the session files.
-thus, you can enter the directory, eg, bot_gada, and then run the command: `./remove_sessions.sh`
-
-after this running `python3 create_sessions.py`, then you'll create 5 sessions, you will need to give him the secret code telegram sends you.
-
-It might take a while... the idea is that you will use more sessions, randomly, then reduce the risk for getting blocked.
-at the end, open the bot.py file and change the sessions list.

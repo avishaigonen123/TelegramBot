@@ -53,9 +53,17 @@ Follow these steps to create and set up your own Telegram bot:
 ### 2️⃣ Deploying the Bot Online
 To keep the bot running 24/7, you may deploy it on a cloud server. A free option is **webhostmost.com**, which provides free hosting services.
 
+To automate script execution, you can use **cron jobs**. The bot scripts run once per minute, and an additional script for a friend runs every half hour.
+![cron-jobs](./images/cron-jobs.png)
+
 ## 🔗 Join Our Telegram Groups
 Stay updated and get support by joining our Telegram groups:
 - 📢 **Jenin News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
+- 📢 **Kalkilia News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
+- 📢 **Tubas News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
+- 📢 **Nablus News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
+- 📢 **Gaza News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
+- 📢 **Suria News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
 
 ## 📸 Telegram Channels
 Here are images of our official Telegram channels:

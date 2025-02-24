@@ -65,12 +65,6 @@ Stay updated and get support by joining our Telegram groups:
 - 📢 **Gaza News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
 - 📢 **Suria News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
 
-## 📸 Telegram Channels
-Here are images of our official Telegram channels:
-
-![📷 Channel 1](channel1_image.png)
-![📷 Channel 2](channel2_image.png)
-
 ## 📜 License
 This project is licensed under the MIT License. Feel free to contribute and improve it!
 

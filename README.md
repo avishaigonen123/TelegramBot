@@ -50,11 +50,23 @@ Follow these steps to create and set up your own Telegram bot:
    python bot.py
    ```
 
-### 2️⃣ Deploying the Bot Online
+### 2️⃣ How to Get the ID of a Channel or User
+To get the ID of a channel or user, follow these steps:
+
+1. Open your **Telegram app**.
+2. Forward a message from the desired channel or user to the **[MyIDBot](https://t.me/myidbot)**.
+3. **MyIDBot** will reply with the **ID** of the forwarded message’s sender (channel or user).
+
+Simply copy the ID and use it in your `config.py` for the `SOURCE_CHANNEL_ID` and `DEST_CHANNEL_ID`.
+
+
+### 3️⃣ Deploying the Bot Online
 To keep the bot running 24/7, you may deploy it on a cloud server. A free option is **webhostmost.com**, which provides free hosting services.
 
 To automate script execution, you can use **cron jobs**. The bot scripts run once per minute, and an additional script for a friend runs every half hour.
 ![cron-jobs](./images/cron-jobs.png)
+
+
 
 ## 🔗 Join Our Telegram Groups
 Stay updated and get support by joining our Telegram groups:

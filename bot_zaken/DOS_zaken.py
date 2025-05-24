@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 import os
 import asyncio
 
+app = Flask(__name__)
 
 # Load environment variables
 api_id = int(os.environ["API_ID"])

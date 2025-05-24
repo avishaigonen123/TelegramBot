@@ -1,15 +1,24 @@
-import config
+# import config
 from googletrans import Translator
 from telethon import TelegramClient, events, types
 from datetime import datetime, timedelta
+import os
 
-api_id = config.API_ID
-api_hash = config.API_HASH
+api_id = os.environ["API_ID"]
+api_hash = os.environ["API_HASH"]
 
-source_channel_id = config.SOURCE_CHANNEL_ID
-user_id = config.USER_ID
+source_channel_id = os.environ["SOURCE_CHANNEL_ID"]
+user_id = os.environ["USER_ID"]
 
-phone_number = config.PHONE_NUMBER
+phone_number = os.environ["PHONE_NUMBER"]
+
+# api_id = config.API_ID
+# api_hash = config.API_HASH
+
+# source_channel_id = config.SOURCE_CHANNEL_ID
+# user_id = config.USER_ID
+
+# phone_number = config.PHONE_NUMBER
 
 # Replace 'mySession' with a unique session name
 session_name = 'Session493804.session'

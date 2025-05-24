@@ -40,19 +40,21 @@ def findGroup(GroupID: int):
 
 async def send_message_to_user():
     # Connect to Telegram
-    await client.start(phone_number)
+    client.send_message('me', "✅ Hello! This is a message to myself.")
 
-    # Get the current date and time
-    now = datetime.now()
+    # await client.start(phone_number)
 
-    # Add 2 hours to the current time
-    new_time = now + timedelta(hours=2)
+    # # Get the current date and time
+    # now = datetime.now()
+
+    # # Add 2 hours to the current time
+    # new_time = now + timedelta(hours=2)
     
-     # Format the current time as HH:MM
-    current_time = new_time.strftime("%H:%M")
-    await client.send_message(user_id, "hello, it's: "+current_time+" now")
+    #  # Format the current time as HH:MM
+    # current_time = new_time.strftime("%H:%M")
+    # await client.send_message(user_id, "hello, it's: "+current_time+" now")
 
-    await client.disconnect()
+    # await client.disconnect()
 
 # Run the send_message_to_user function
 client.loop.run_until_complete(send_message_to_user())

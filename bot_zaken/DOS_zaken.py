@@ -24,9 +24,10 @@ phone_number = os.environ["PHONE_NUMBER"]
 # session_name = 'Session493804.session'
 session_name = 'bot_zaken/Session493804.session'
 
+stringSession = os.environ["STRING_SESSION"]
 
 # Create a TelegramClient instance
-client = TelegramClient(session_name, api_id, api_hash)
+client = TelegramClient(StringSession(stringSession), api_id, api_hash)
 
 def findGroup(GroupID: int):
      for i in client.iter_dialogs(folder=0):

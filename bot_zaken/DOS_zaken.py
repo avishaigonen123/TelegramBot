@@ -28,33 +28,32 @@ session_name = 'bot_zaken/Session493804.session'
 
 stringSession = os.environ["STRING_SESSION"]
 
-# Create a TelegramClient instance
-client = TelegramClient(StringSession(stringSession), api_id, api_hash)
+with TelegramClient(session_name, api_id, api_hash) as client:
+    client.send_message('me', "✅ Hello! This is a message to myself.")
+# # Create a TelegramClient instance
+# client = TelegramClient(StringSession(stringSession), api_id, api_hash)
 
-def findGroup(GroupID: int):
-     for i in client.iter_dialogs(folder=0):
-        if i.id==GroupID:
-            return i
+# def findGroup(GroupID: int):
+#      for i in client.iter_dialogs(folder=0):
+#         if i.id==GroupID:
+#             return i
         
 
 
-async def send_message_to_user():
-    # Connect to Telegram
-    client.send_message('me', "✅ Hello! This is a message to myself.")
+# async def send_message_to_user():
+#     await client.start(phone_number)
 
-    # await client.start(phone_number)
+#     # Get the current date and time
+#     now = datetime.now()
 
-    # # Get the current date and time
-    # now = datetime.now()
-
-    # # Add 2 hours to the current time
-    # new_time = now + timedelta(hours=2)
+#     # Add 2 hours to the current time
+#     new_time = now + timedelta(hours=2)
     
-    #  # Format the current time as HH:MM
-    # current_time = new_time.strftime("%H:%M")
-    # await client.send_message(user_id, "hello, it's: "+current_time+" now")
+#      # Format the current time as HH:MM
+#     current_time = new_time.strftime("%H:%M")
+#     await client.send_message(user_id, "hello, it's: "+current_time+" now")
 
-    # await client.disconnect()
+#     await client.disconnect()
 
-# Run the send_message_to_user function
-client.loop.run_until_complete(send_message_to_user())
+# # Run the send_message_to_user function
+# client.loop.run_until_complete(send_message_to_user())

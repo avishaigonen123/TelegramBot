@@ -1,4 +1,4 @@
-# import config
+    # import config
 from googletrans import Translator
 from telethon import TelegramClient, events, types
 from telethon.sessions import StringSession
@@ -28,8 +28,14 @@ session_name = 'bot_zaken/Session493804.session'
 
 stringSession = os.environ["STRING_SESSION"]
 
-with TelegramClient(session_name, api_id, api_hash) as client:
-    client.send_message('me', "✅ Hello! This is a message to myself.")
+client = TelegramClient(session, api_id, api_hash)
+
+async def main():
+    await client.start()
+    await client.send_message('me', "✅ Hello! This is a message to myself.")
+    print("Message sent!")
+
+asyncio.run(main())
 # # Create a TelegramClient instance
 # client = TelegramClient(StringSession(stringSession), api_id, api_hash)
 

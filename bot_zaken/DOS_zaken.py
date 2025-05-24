@@ -1,6 +1,8 @@
 # import config
 from googletrans import Translator
-from telethon import TelegramClient, events, types, StringSession
+from telethon import TelegramClient, events, types
+from telethon.sessions import StringSession
+
 from datetime import datetime, timedelta
 import os
 

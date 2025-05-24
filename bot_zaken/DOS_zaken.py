@@ -21,7 +21,8 @@ phone_number = os.environ["PHONE_NUMBER"]
 # phone_number = config.PHONE_NUMBER
 
 # Replace 'mySession' with a unique session name
-session_name = 'Session493804.session'
+# session_name = 'Session493804.session'
+session_name = '/etc/secrests/Session493804.session'
 
 
 # Create a TelegramClient instance

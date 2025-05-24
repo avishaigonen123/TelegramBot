@@ -28,7 +28,7 @@ session_name = 'bot_zaken/Session493804.session'
 
 stringSession = os.environ["STRING_SESSION"]
 
-client = TelegramClient(session, api_id, api_hash)
+client = TelegramClient(StringSession(stringSession), api_id, api_hash)
 
 async def main():
     await client.start()

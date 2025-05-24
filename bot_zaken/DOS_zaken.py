@@ -32,12 +32,41 @@ stringSession = os.environ["STRING_SESSION"]
 
 client = TelegramClient(StringSession(stringSession), api_id, api_hash)
 
-async def main():
-    await client.start()
-    await client.send_message('me', "✅ Hello! This is a message to myself.")
-    print("Message sent!")
+# async def main():
+#     await client.start()
+#     await client.send_message('me', "✅ Hello! This is a message to myself.")
+#     print("Message sent!")
 
-asyncio.run(main())
+# asyncio.run(main())
+
+
+def findGroup(GroupID: int):
+     for i in client.iter_dialogs(folder=0):
+        if i.id==GroupID:
+            return i
+        
+
+
+async def send_message_to_user():
+    # Connect to Telegram
+    await client.start(phone_number)
+
+    # Get the current date and time
+    now = datetime.now()
+
+    # Add 2 hours to the current time
+    new_time = now + timedelta(hours=2)
+    
+     # Format the current time as HH:MM
+    current_time = new_time.strftime("%H:%M")
+    await client.send_message(user_id, "hello, it's: "+current_time+" now")
+
+    await client.disconnect()
+
+# Run the send_message_to_user function
+client.loop.run_until_complete(send_message_to_user())
+
+
 # # Create a TelegramClient instance
 # client = TelegramClient(StringSession(stringSession), api_id, api_hash)
 

@@ -22,7 +22,7 @@ phone_number = os.environ["PHONE_NUMBER"]
 
 # Replace 'mySession' with a unique session name
 # session_name = 'Session493804.session'
-session_name = '/etc/secrests/Session493804.session'
+session_name = 'bot_zaken/Session493804.session'
 
 
 # Create a TelegramClient instance

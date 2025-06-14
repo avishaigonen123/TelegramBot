@@ -76,6 +76,7 @@ Stay updated and get support by joining our Telegram groups:
 - 📢 **Nablus News:** [Join Here](https://t.me/+9vULSIuHQ7RlYjI0)
 - 📢 **Gaza News:** [Join Here](https://t.me/+_b4ZozXYKi41OGM0)
 - 📢 **Suria News:** [Join Here](https://t.me/+MPKAi42velpmMGI0)
+- 📢 **Iran News:** [Join Here](https://t.me/+a-fAkmiPVu1kMDZk)
 
 ## 📜 License
 This project is licensed under the MIT License. Feel free to contribute and improve it!

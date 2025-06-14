@@ -1,45 +1,34 @@
-import config
+from flask import Flask
+import subprocess
 from googletrans import Translator
 from telethon import TelegramClient, events, types
+from telethon.sessions import StringSession
+
 from datetime import datetime, timedelta
+import os
+import asyncio
 
-api_id = config.API_ID
-api_hash = config.API_HASH
+app = Flask(__name__)
 
-source_channel_id = config.SOURCE_CHANNEL_ID
-user_id = config.USER_ID
+# Load environment variables
+api_id = int(os.environ["API_ID"])
+api_hash = os.environ["API_HASH"]
+user_id = int(os.environ["USER_ID"])
+string_session = os.environ["STRING_SESSION"]
 
-phone_number = config.PHONE_NUMBER
-
-# Replace 'mySession' with a unique session name
-session_name = 'Session493804.session'
-
-
-# Create a TelegramClient instance
-client = TelegramClient(session_name, api_id, api_hash)
-
-def findGroup(GroupID: int):
-     for i in client.iter_dialogs(folder=0):
-        if i.id==GroupID:
-            return i
-        
-
+# Create Telegram client
+client = TelegramClient(StringSession(string_session), api_id, api_hash)
 
 async def send_message_to_user():
-    # Connect to Telegram
-    await client.start(phone_number)
-
-    # Get the current date and time
+    await client.start()
+    # Optional: calculate time
     now = datetime.now()
-
-    # Add 2 hours to the current time
     new_time = now + timedelta(hours=2)
-    
-     # Format the current time as HH:MM
     current_time = new_time.strftime("%H:%M")
-    await client.send_message(user_id, "hello, it's: "+current_time+" now")
 
-    await client.disconnect()
+    await client.send_message('me', f"✅ Hello! It's {current_time} now.")
+    return "✅ Message sent"
 
-# Run the send_message_to_user function
-client.loop.run_until_complete(send_message_to_user())
+@app.route('/')
+def index():
+    return asyncio.run(send_message_to_user())

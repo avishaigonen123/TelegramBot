@@ -72,7 +72,7 @@ async def main():
     mess = []
 
     try:
-        async for i in client.iter_messages(source_channel, limit=20):  # Fetch more in case of gaps
+        async for i in client.iter_messages(source_channel, limit=50):  # Fetch more in case of gaps
             if i.id <= last_id:
                 continue
             if not i.action:  # skip service messages

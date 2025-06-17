@@ -8,9 +8,11 @@ import glob
 import pytz
 from datetime import datetime
 
-# Timezone-aware logging (Israel Standard Time)
+# Configure logging to use Israel Standard Time (IST)
 logging.basicConfig(level=logging.INFO, filename='bot.log', filemode='a',
                     format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Custom formatter for timezone
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 formatter.converter = lambda *args, **kwargs: datetime.now(pytz.timezone('Asia/Jerusalem')).timetuple()
 for handler in logging.getLogger().handlers:
@@ -23,7 +25,7 @@ source_channel_id = config.SOURCE_CHANNEL_ID
 destination_channel_id = config.DEST_CHANNEL_ID
 phone_number = config.PHONE_NUMBER
 
-# Session file picker
+# Pick random session file
 sessions_list = [os.path.splitext(os.path.basename(f))[0] for f in glob.glob("*.session")]
 if not sessions_list:
     logging.error("No session files found in the current directory.")
@@ -31,21 +33,8 @@ if not sessions_list:
 session_name = random.choice(sessions_list)
 logging.info(f"Using session file: {session_name}")
 
-# Telegram client
+# Start Telegram client
 client = TelegramClient(session_name, api_id, api_hash)
-
-# File to store last processed message ID
-LAST_ID_FILE = "last_id.txt"
-
-def get_last_processed_id():
-    if os.path.exists(LAST_ID_FILE):
-        with open(LAST_ID_FILE, "r") as f:
-            return int(f.read().strip())
-    return 0
-
-def save_last_processed_id(msg_id):
-    with open(LAST_ID_FILE, "w") as f:
-        f.write(str(msg_id))
 
 
 async def findGroup(GroupID: int):
@@ -59,7 +48,6 @@ async def findGroup(GroupID: int):
 
 async def main():
     translator = Translator()
-    last_id = get_last_processed_id()
 
     source_channel = await findGroup(source_channel_id)
     destination_channel = await findGroup(destination_channel_id)
@@ -68,21 +56,19 @@ async def main():
         logging.error("Could not find source or destination channel.")
         return
 
-    logging.info(f"Fetching messages from: {source_channel.name}, after message ID: {last_id}")
+    logging.info(f"Fetching last 5 messages from: {source_channel.name}")
     mess = []
 
     try:
-        async for i in client.iter_messages(source_channel, limit=20):  # Fetch more in case of gaps
-            if i.id <= last_id:
-                continue
+        async for i in client.iter_messages(source_channel, limit=5):
             if not i.action:  # skip service messages
-                mess.insert(0, i)  # ensure chronological order
+                mess.insert(0, i)
     except Exception as e:
         logging.error(f"Error while fetching messages: {e}")
         return
 
     if not mess:
-        logging.info("No new messages to process.")
+        logging.info("No messages fetched.")
         return
 
     for i in mess:
@@ -91,30 +77,27 @@ async def main():
                 logging.info(f"Skipping empty message ID {i.id}")
                 continue
 
-            try:
-                original_text = i.text or ""
-                if original_text.strip():
-                    translated_text = translator.translate(original_text, dest='he').text
-                    logging.info(f"Translated message ID {i.id}")
-                else:
-                    translated_text = ""
-                    logging.info(f"No text to translate in message ID {i.id}")
-            except Exception as e:
-                translated_text = ""
-                logging.warning(f"Translation failed for message ID {i.id}: {e}")
+            original_text = i.text or ""
+            logging.info(f"Fetched message ID {i.id}")
 
-            # Handle media
+            try:
+                translated_text = translator.translate(original_text, dest='he').text
+                logging.info(f"Translated message ID {i.id}")
+            except Exception as e:
+                logging.warning(f"Translation failed for message ID {i.id}: {e}")
+                translated_text = f"[Translation failed] {original_text}"
+
             if i.media:
                 try:
                     await client.send_message(destination_channel, file=i.media, message=translated_text)
                     logging.info(f"Sent media message ID {i.id} with caption")
                 except Exception as e:
-                    logging.warning(f"Failed with caption, trying without caption: {e}")
+                    logging.warning(f"Caption too long or error sending media with caption for message ID {i.id}: {e}")
                     try:
                         await client.send_message(destination_channel, file=i.media)
                         logging.info(f"Sent media message ID {i.id} without caption")
                     except Exception as e2:
-                        logging.error(f"Failed sending media message ID {i.id}: {e2}")
+                        logging.error(f"Error sending media message ID {i.id} without caption: {e2}")
             else:
                 try:
                     await client.send_message(destination_channel, translated_text)
@@ -126,13 +109,9 @@ async def main():
             await client.send_read_acknowledge(source_channel, max_id=i.id)
             logging.info(f"Acknowledged message ID {i.id}")
 
-            # Save last processed ID
-            save_last_processed_id(i.id)
-
         except Exception as e:
             logging.error(f"Error processing message ID {i.id}: {e}")
 
 
-# Run
 client.start(phone_number)
 client.loop.run_until_complete(main())

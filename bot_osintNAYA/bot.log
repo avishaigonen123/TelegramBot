@@ -1,0 +1,302 @@
+2025-06-17 20:59:33,918 - INFO - Using session file: gonenSession178987
+2025-06-17 20:59:34,015 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 20:59:34,111 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 20:59:43,512 - INFO - Using session file: gonenSession165136
+2025-06-17 20:59:43,613 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 20:59:43,714 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:00:25,831 - INFO - Using session file: gonenSession178987
+2025-06-17 21:00:25,930 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:00:26,031 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:00:27,214 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-06-17 21:00:27,675 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-06-17 21:00:27,675 - INFO - Fetching messages from: نايا - NAYA, after message ID: 5
+2025-06-17 21:00:29,763 - INFO - Translated message ID 30495
+2025-06-17 21:00:29,933 - INFO - Sent text message ID 30495
+2025-06-17 21:00:30,042 - INFO - Acknowledged message ID 30495
+2025-06-17 21:00:32,060 - INFO - Translated message ID 30496
+2025-06-17 21:00:32,260 - INFO - Sent text message ID 30496
+2025-06-17 21:00:32,372 - INFO - Acknowledged message ID 30496
+2025-06-17 21:00:34,582 - INFO - Translated message ID 30497
+2025-06-17 21:00:34,742 - INFO - Sent media message ID 30497 with caption
+2025-06-17 21:00:34,885 - INFO - Acknowledged message ID 30497
+2025-06-17 21:00:36,723 - INFO - Translated message ID 30498
+2025-06-17 21:00:36,901 - INFO - Sent text message ID 30498
+2025-06-17 21:00:37,018 - INFO - Acknowledged message ID 30498
+2025-06-17 21:00:38,928 - INFO - Translated message ID 30499
+2025-06-17 21:00:39,096 - INFO - Sent text message ID 30499
+2025-06-17 21:00:39,219 - INFO - Acknowledged message ID 30499
+2025-06-17 21:00:40,886 - INFO - Translated message ID 30500
+2025-06-17 21:00:41,044 - INFO - Sent text message ID 30500
+2025-06-17 21:00:41,152 - INFO - Acknowledged message ID 30500
+2025-06-17 21:00:43,104 - INFO - Translated message ID 30501
+2025-06-17 21:00:43,280 - INFO - Sent media message ID 30501 with caption
+2025-06-17 21:00:43,470 - INFO - Acknowledged message ID 30501
+2025-06-17 21:00:45,600 - INFO - Translated message ID 30502
+2025-06-17 21:00:45,782 - INFO - Sent text message ID 30502
+2025-06-17 21:00:45,893 - INFO - Acknowledged message ID 30502
+2025-06-17 21:00:47,226 - INFO - Translated message ID 30503
+2025-06-17 21:00:47,413 - INFO - Sent text message ID 30503
+2025-06-17 21:00:47,547 - INFO - Acknowledged message ID 30503
+2025-06-17 21:00:49,329 - INFO - Translated message ID 30504
+2025-06-17 21:00:49,510 - INFO - Sent text message ID 30504
+2025-06-17 21:00:49,624 - INFO - Acknowledged message ID 30504
+2025-06-17 21:00:50,794 - INFO - Translated message ID 30505
+2025-06-17 21:00:50,996 - INFO - Sent text message ID 30505
+2025-06-17 21:00:51,130 - INFO - Acknowledged message ID 30505
+2025-06-17 21:00:52,998 - INFO - Translated message ID 30506
+2025-06-17 21:00:53,162 - INFO - Sent media message ID 30506 with caption
+2025-06-17 21:00:53,271 - INFO - Acknowledged message ID 30506
+2025-06-17 21:00:53,271 - INFO - No text to translate in message ID 30507
+2025-06-17 21:00:53,450 - INFO - Sent media message ID 30507 with caption
+2025-06-17 21:00:53,565 - INFO - Acknowledged message ID 30507
+2025-06-17 21:00:55,970 - INFO - Translated message ID 30509
+2025-06-17 21:00:56,140 - INFO - Sent text message ID 30509
+2025-06-17 21:00:56,248 - INFO - Acknowledged message ID 30509
+2025-06-17 21:00:58,358 - INFO - Translated message ID 30510
+2025-06-17 21:00:58,527 - INFO - Sent media message ID 30510 with caption
+2025-06-17 21:00:58,634 - INFO - Acknowledged message ID 30510
+2025-06-17 21:01:00,764 - INFO - Translated message ID 30511
+2025-06-17 21:01:00,966 - INFO - Sent media message ID 30511 with caption
+2025-06-17 21:01:01,080 - INFO - Acknowledged message ID 30511
+2025-06-17 21:01:26,336 - INFO - Using session file: gonenSession179476
+2025-06-17 21:01:26,434 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:01:26,529 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:01:27,659 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-06-17 21:01:28,132 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-06-17 21:01:28,132 - INFO - Fetching messages from: نايا - NAYA, after message ID: 30511
+2025-06-17 21:01:30,664 - INFO - Translated message ID 30514
+2025-06-17 21:01:30,931 - INFO - Sent text message ID 30514
+2025-06-17 21:01:31,154 - INFO - Acknowledged message ID 30514
+2025-06-17 21:01:32,556 - INFO - Translated message ID 30516
+2025-06-17 21:01:32,739 - INFO - Sent media message ID 30516 with caption
+2025-06-17 21:01:32,840 - INFO - Acknowledged message ID 30516
+2025-06-17 21:01:32,840 - INFO - No text to translate in message ID 30517
+2025-06-17 21:01:33,019 - INFO - Sent media message ID 30517 with caption
+2025-06-17 21:01:33,161 - INFO - Acknowledged message ID 30517
+2025-06-17 21:01:35,488 - INFO - Translated message ID 30518
+2025-06-17 21:01:35,680 - INFO - Sent media message ID 30518 with caption
+2025-06-17 21:01:35,798 - INFO - Acknowledged message ID 30518
+2025-06-17 21:01:37,671 - INFO - Translated message ID 30519
+2025-06-17 21:01:37,886 - INFO - Sent media message ID 30519 with caption
+2025-06-17 21:01:38,026 - INFO - Acknowledged message ID 30519
+2025-06-17 21:01:40,460 - INFO - Translated message ID 30521
+2025-06-17 21:01:40,617 - INFO - Sent media message ID 30521 with caption
+2025-06-17 21:01:40,738 - INFO - Acknowledged message ID 30521
+2025-06-17 21:01:43,302 - INFO - Translated message ID 30522
+2025-06-17 21:01:43,460 - INFO - Sent media message ID 30522 with caption
+2025-06-17 21:01:43,563 - INFO - Acknowledged message ID 30522
+2025-06-17 21:01:45,187 - INFO - Translated message ID 30523
+2025-06-17 21:01:45,334 - INFO - Sent media message ID 30523 with caption
+2025-06-17 21:01:45,437 - INFO - Acknowledged message ID 30523
+2025-06-17 21:01:47,598 - INFO - Translated message ID 30524
+2025-06-17 21:01:47,768 - INFO - Sent media message ID 30524 with caption
+2025-06-17 21:01:47,868 - INFO - Acknowledged message ID 30524
+2025-06-17 21:01:50,390 - INFO - Translated message ID 30525
+2025-06-17 21:01:50,559 - INFO - Sent media message ID 30525 with caption
+2025-06-17 21:01:50,685 - INFO - Acknowledged message ID 30525
+2025-06-17 21:01:52,487 - INFO - Translated message ID 30526
+2025-06-17 21:01:52,633 - INFO - Sent text message ID 30526
+2025-06-17 21:01:52,739 - INFO - Acknowledged message ID 30526
+2025-06-17 21:01:53,569 - INFO - Translated message ID 30527
+2025-06-17 21:01:53,732 - INFO - Sent media message ID 30527 with caption
+2025-06-17 21:01:53,835 - INFO - Acknowledged message ID 30527
+2025-06-17 21:01:56,225 - INFO - Translated message ID 30528
+2025-06-17 21:01:56,400 - INFO - Sent text message ID 30528
+2025-06-17 21:01:56,508 - INFO - Acknowledged message ID 30528
+2025-06-17 21:01:58,882 - INFO - Translated message ID 30529
+2025-06-17 21:01:59,038 - INFO - Sent media message ID 30529 with caption
+2025-06-17 21:01:59,143 - INFO - Acknowledged message ID 30529
+2025-06-17 21:02:00,853 - INFO - Translated message ID 30530
+2025-06-17 21:02:01,004 - INFO - Sent text message ID 30530
+2025-06-17 21:02:01,109 - INFO - Acknowledged message ID 30530
+2025-06-17 21:02:02,812 - INFO - Translated message ID 30531
+2025-06-17 21:02:03,012 - INFO - Sent media message ID 30531 with caption
+2025-06-17 21:02:03,137 - INFO - Acknowledged message ID 30531
+2025-06-17 21:03:26,334 - INFO - Using session file: gonenSession165136
+2025-06-17 21:03:26,431 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:03:26,530 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:03:30,434 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-06-17 21:03:30,720 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-06-17 21:03:30,720 - INFO - Fetching messages from: نايا - NAYA, after message ID: 30531
+2025-06-17 21:03:32,870 - INFO - Translated message ID 30656
+2025-06-17 21:03:33,096 - INFO - Sent text message ID 30656
+2025-06-17 21:03:33,262 - INFO - Acknowledged message ID 30656
+2025-06-17 21:03:34,804 - INFO - Translated message ID 30657
+2025-06-17 21:03:34,966 - INFO - Sent text message ID 30657
+2025-06-17 21:03:35,079 - INFO - Acknowledged message ID 30657
+2025-06-17 21:03:37,408 - INFO - Translated message ID 30658
+2025-06-17 21:03:37,566 - INFO - Sent text message ID 30658
+2025-06-17 21:03:37,672 - INFO - Acknowledged message ID 30658
+2025-06-17 21:03:39,590 - INFO - Translated message ID 30659
+2025-06-17 21:03:39,738 - INFO - Sent text message ID 30659
+2025-06-17 21:03:39,842 - INFO - Acknowledged message ID 30659
+2025-06-17 21:03:41,092 - INFO - Translated message ID 30660
+2025-06-17 21:03:41,271 - INFO - Sent text message ID 30660
+2025-06-17 21:03:41,386 - INFO - Acknowledged message ID 30660
+2025-06-17 21:03:43,362 - INFO - Translated message ID 30661
+2025-06-17 21:03:43,606 - INFO - Sent text message ID 30661
+2025-06-17 21:03:43,855 - INFO - Acknowledged message ID 30661
+2025-06-17 21:03:46,009 - INFO - Translated message ID 30662
+2025-06-17 21:03:46,161 - INFO - Sent text message ID 30662
+2025-06-17 21:03:46,265 - INFO - Acknowledged message ID 30662
+2025-06-17 21:03:48,094 - INFO - Translated message ID 30663
+2025-06-17 21:03:48,260 - INFO - Sent media message ID 30663 with caption
+2025-06-17 21:03:48,363 - INFO - Acknowledged message ID 30663
+2025-06-17 21:03:50,626 - INFO - Translated message ID 30664
+2025-06-17 21:03:50,812 - INFO - Sent media message ID 30664 with caption
+2025-06-17 21:03:50,925 - INFO - Acknowledged message ID 30664
+2025-06-17 21:03:51,534 - INFO - Translated message ID 30665
+2025-06-17 21:03:51,694 - INFO - Sent text message ID 30665
+2025-06-17 21:03:51,807 - INFO - Acknowledged message ID 30665
+2025-06-17 21:03:52,829 - INFO - Translated message ID 30666
+2025-06-17 21:03:52,985 - INFO - Sent media message ID 30666 with caption
+2025-06-17 21:03:53,096 - INFO - Acknowledged message ID 30666
+2025-06-17 21:03:55,180 - INFO - Translated message ID 30667
+2025-06-17 21:03:55,339 - INFO - Sent media message ID 30667 with caption
+2025-06-17 21:03:55,445 - INFO - Acknowledged message ID 30667
+2025-06-17 21:03:56,753 - INFO - Translated message ID 30668
+2025-06-17 21:03:56,922 - INFO - Sent media message ID 30668 with caption
+2025-06-17 21:03:57,025 - INFO - Acknowledged message ID 30668
+2025-06-17 21:03:58,725 - INFO - Translated message ID 30669
+2025-06-17 21:03:58,901 - INFO - Sent media message ID 30669 with caption
+2025-06-17 21:03:59,006 - INFO - Acknowledged message ID 30669
+2025-06-17 21:04:01,270 - INFO - Translated message ID 30670
+2025-06-17 21:04:01,542 - INFO - Sent text message ID 30670
+2025-06-17 21:04:01,743 - INFO - Acknowledged message ID 30670
+2025-06-17 21:04:04,213 - INFO - Translated message ID 30671
+2025-06-17 21:04:21,323 - INFO - Using session file: gonenSession61396
+2025-06-17 21:04:21,420 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:04:21,518 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:04:22,681 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-06-17 21:04:23,135 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-06-17 21:04:23,135 - INFO - Fetching messages from: نايا - NAYA, after message ID: 30670
+2025-06-17 21:04:23,392 - INFO - Translated message ID 30671
+2025-06-17 21:04:23,689 - INFO - Sent text message ID 30671
+2025-06-17 21:04:23,801 - INFO - Acknowledged message ID 30671
+2025-06-17 21:04:26,309 - INFO - Translated message ID 30672
+2025-06-17 21:04:26,498 - INFO - Sent media message ID 30672 with caption
+2025-06-17 21:04:26,624 - INFO - Acknowledged message ID 30672
+2025-06-17 21:04:29,155 - INFO - Translated message ID 30673
+2025-06-17 21:04:29,345 - INFO - Sent text message ID 30673
+2025-06-17 21:04:29,449 - INFO - Acknowledged message ID 30673
+2025-06-17 21:04:31,100 - INFO - Translated message ID 30675
+2025-06-17 21:04:31,262 - INFO - Sent media message ID 30675 with caption
+2025-06-17 21:04:31,382 - INFO - Acknowledged message ID 30675
+2025-06-17 21:04:33,877 - INFO - Translated message ID 30676
+2025-06-17 21:04:34,049 - INFO - Sent media message ID 30676 with caption
+2025-06-17 21:04:34,157 - INFO - Acknowledged message ID 30676
+2025-06-17 21:04:37,034 - INFO - Translated message ID 30677
+2025-06-17 21:04:37,196 - INFO - Sent text message ID 30677
+2025-06-17 21:04:37,308 - INFO - Acknowledged message ID 30677
+2025-06-17 21:04:39,907 - INFO - Translated message ID 30678
+2025-06-17 21:04:40,089 - INFO - Sent media message ID 30678 with caption
+2025-06-17 21:04:40,239 - INFO - Acknowledged message ID 30678
+2025-06-17 21:04:41,639 - INFO - Translated message ID 30680
+2025-06-17 21:04:41,806 - INFO - Sent media message ID 30680 with caption
+2025-06-17 21:04:41,911 - INFO - Acknowledged message ID 30680
+2025-06-17 21:04:44,051 - INFO - Translated message ID 30682
+2025-06-17 21:04:44,252 - INFO - Sent text message ID 30682
+2025-06-17 21:04:44,356 - INFO - Acknowledged message ID 30682
+2025-06-17 21:04:45,779 - INFO - Translated message ID 30683
+2025-06-17 21:04:45,948 - INFO - Sent media message ID 30683 with caption
+2025-06-17 21:04:46,061 - INFO - Acknowledged message ID 30683
+2025-06-17 21:04:47,929 - INFO - Translated message ID 30684
+2025-06-17 21:04:48,230 - INFO - Sent text message ID 30684
+2025-06-17 21:04:48,448 - INFO - Acknowledged message ID 30684
+2025-06-17 21:04:49,275 - INFO - Translated message ID 30685
+2025-06-17 21:04:49,435 - INFO - Sent text message ID 30685
+2025-06-17 21:04:49,542 - INFO - Acknowledged message ID 30685
+2025-06-17 21:04:50,449 - INFO - Translated message ID 30686
+2025-06-17 21:04:50,617 - INFO - Sent text message ID 30686
+2025-06-17 21:04:50,723 - INFO - Acknowledged message ID 30686
+2025-06-17 21:04:52,354 - INFO - Translated message ID 30687
+2025-06-17 21:04:52,527 - INFO - Sent media message ID 30687 with caption
+2025-06-17 21:04:52,633 - INFO - Acknowledged message ID 30687
+2025-06-17 21:04:54,650 - INFO - Translated message ID 30688
+2025-06-17 21:04:54,839 - INFO - Sent media message ID 30688 with caption
+2025-06-17 21:04:54,946 - INFO - Acknowledged message ID 30688
+2025-06-17 21:04:56,996 - INFO - Translated message ID 30689
+2025-06-17 21:04:57,163 - INFO - Sent text message ID 30689
+2025-06-17 21:04:57,267 - INFO - Acknowledged message ID 30689
+2025-06-17 21:04:59,725 - INFO - Translated message ID 30690
+2025-06-17 21:04:59,906 - INFO - Sent media message ID 30690 with caption
+2025-06-17 21:05:00,010 - INFO - Acknowledged message ID 30690
+2025-06-17 21:05:01,518 - INFO - Translated message ID 30691
+2025-06-17 21:05:01,782 - INFO - Sent text message ID 30691
+2025-06-17 21:05:01,939 - INFO - Acknowledged message ID 30691
+2025-06-17 21:05:04,172 - INFO - Translated message ID 30692
+2025-06-17 21:05:04,328 - INFO - Sent media message ID 30692 with caption
+2025-06-17 21:05:04,440 - INFO - Acknowledged message ID 30692
+2025-06-17 21:05:06,618 - INFO - Translated message ID 30693
+2025-06-17 21:05:06,812 - INFO - Sent media message ID 30693 with caption
+2025-06-17 21:05:06,917 - INFO - Acknowledged message ID 30693
+2025-06-17 21:05:08,804 - INFO - Translated message ID 30694
+2025-06-17 21:05:08,972 - INFO - Sent text message ID 30694
+2025-06-17 21:05:09,093 - INFO - Acknowledged message ID 30694
+2025-06-17 21:05:10,580 - INFO - Translated message ID 30696
+2025-06-17 21:05:10,749 - INFO - Sent text message ID 30696
+2025-06-17 21:05:10,863 - INFO - Acknowledged message ID 30696
+2025-06-17 21:05:12,287 - INFO - Translated message ID 30697
+2025-06-17 21:05:12,463 - INFO - Sent text message ID 30697
+2025-06-17 21:05:12,568 - INFO - Acknowledged message ID 30697
+2025-06-17 21:05:13,955 - INFO - Translated message ID 30698
+2025-06-17 21:05:14,164 - INFO - Sent text message ID 30698
+2025-06-17 21:05:14,364 - INFO - Acknowledged message ID 30698
+2025-06-17 21:05:16,746 - INFO - Translated message ID 30699
+2025-06-17 21:05:16,903 - INFO - Sent text message ID 30699
+2025-06-17 21:05:17,075 - INFO - Acknowledged message ID 30699
+2025-06-17 21:05:48,826 - INFO - Using session file: gonenSession61396
+2025-06-17 21:05:48,925 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:05:49,023 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:05:50,893 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-06-17 21:05:51,340 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-06-17 21:05:51,340 - INFO - Fetching messages from: نايا - NAYA, after message ID: 30699
+2025-06-17 21:05:53,127 - INFO - Translated message ID 30700
+2025-06-17 21:05:53,282 - INFO - Sent text message ID 30700
+2025-06-17 21:05:53,397 - INFO - Acknowledged message ID 30700
+2025-06-17 21:05:54,466 - INFO - Translated message ID 30701
+2025-06-17 21:05:54,623 - INFO - Sent text message ID 30701
+2025-06-17 21:05:54,731 - INFO - Acknowledged message ID 30701
+2025-06-17 21:05:56,539 - INFO - Translated message ID 30702
+2025-06-17 21:05:56,698 - INFO - Sent media message ID 30702 with caption
+2025-06-17 21:05:56,804 - INFO - Acknowledged message ID 30702
+2025-06-17 21:05:58,884 - INFO - Translated message ID 30703
+2025-06-17 21:05:59,045 - INFO - Sent text message ID 30703
+2025-06-17 21:05:59,151 - INFO - Acknowledged message ID 30703
+2025-06-17 21:06:01,328 - INFO - Translated message ID 30704
+2025-06-17 21:06:01,488 - INFO - Sent text message ID 30704
+2025-06-17 21:06:01,597 - INFO - Acknowledged message ID 30704
+2025-06-17 21:06:59,037 - INFO - Using session file: gonenSession407480
+2025-06-17 21:06:59,134 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:06:59,307 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:07:00,677 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-06-17 21:07:00,942 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-06-17 21:07:00,942 - INFO - Fetching messages from: نايا - NAYA, after message ID: 30704
+2025-06-17 21:07:01,208 - INFO - Translated message ID 30705
+2025-06-17 21:07:01,358 - INFO - Sent text message ID 30705
+2025-06-17 21:07:01,461 - INFO - Acknowledged message ID 30705
+2025-06-17 21:07:15,236 - INFO - Using session file: gonenSession179476
+2025-06-17 21:07:15,333 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:07:15,434 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:07:16,427 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-06-17 21:07:16,689 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-06-17 21:07:16,689 - INFO - Fetching messages from: نايا - NAYA, after message ID: 30705
+2025-06-17 21:07:16,958 - INFO - Translated message ID 30706
+2025-06-17 21:07:17,129 - INFO - Sent text message ID 30706
+2025-06-17 21:07:17,236 - INFO - Acknowledged message ID 30706
+2025-06-17 21:07:19,060 - INFO - Translated message ID 30707
+2025-06-17 21:07:19,242 - INFO - Sent media message ID 30707 with caption
+2025-06-17 21:07:19,348 - INFO - Acknowledged message ID 30707
+2025-06-17 21:07:21,532 - INFO - Translated message ID 30708
+2025-06-17 21:07:21,715 - INFO - Sent text message ID 30708
+2025-06-17 21:07:21,827 - INFO - Acknowledged message ID 30708
+2025-06-17 21:07:23,371 - INFO - Translated message ID 30709
+2025-06-17 21:07:23,534 - INFO - Sent text message ID 30709
+2025-06-17 21:07:23,669 - INFO - Acknowledged message ID 30709
+2025-06-17 21:07:42,127 - INFO - Using session file: gonenSession407480
+2025-06-17 21:07:42,224 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:07:42,322 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:07:43,516 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-06-17 21:07:44,125 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-06-17 21:07:44,125 - INFO - Fetching messages from: نايا - NAYA, after message ID: 30709
+2025-06-17 21:07:44,291 - INFO - No new messages to process.

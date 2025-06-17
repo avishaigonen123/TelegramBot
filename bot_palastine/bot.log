@@ -4561,3 +4561,12 @@
 2025-06-17 21:08:21,075 - INFO - Found group with ID -1002027365084: חדשות פל0טין
 2025-06-17 21:08:21,075 - INFO - Fetching messages from: قناة الأقصى, after message ID: 342277
 2025-06-17 21:08:21,301 - INFO - No new messages to process.
+2025-06-17 21:10:15,923 - INFO - Using session file: gonenSession573121
+2025-06-17 21:10:15,121 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-06-17 21:10:15,219 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-06-17 21:10:17,632 - INFO - Found group with ID -1001351218719: قناة الأقصى
+2025-06-17 21:10:18,119 - INFO - Found group with ID -1002027365084: חדשות פל0טין
+2025-06-17 21:10:18,119 - INFO - Fetching messages from: قناة الأقصى, after message ID: 342277
+2025-06-17 21:10:20,020 - INFO - Translated message ID 342278
+2025-06-17 21:10:20,208 - INFO - Sent media message ID 342278 with caption
+2025-06-17 21:10:20,320 - INFO - Acknowledged message ID 342278

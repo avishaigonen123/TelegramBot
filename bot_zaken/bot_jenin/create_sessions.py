@@ -6,11 +6,10 @@ api_id = config.API_ID
 api_hash = config.API_HASH
 
 phone_number = config.PHONE_NUMBER
-# Replace 'mySession' with a unique session name
 
 sessions_names = []
 
-for i in range(3):
+for i in range(5):
     session_name = 'Session'+str(random.randint(10,1000000))
     print(session_name)
 

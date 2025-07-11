@@ -1,0 +1,753 @@
+2025-06-16 16:34:13,021 - INFO - Using session file: Session633470
+2025-06-16 16:34:13,117 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:34:13,216 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:34:14,264 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:34:14,565 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 16:35:21,628 - INFO - Using session file: Session991345
+2025-06-16 16:35:21,712 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:35:21,808 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:35:22,930 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:35:23,517 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 16:36:13,013 - INFO - Using session file: Session633470
+2025-06-16 16:36:13,021 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:36:13,122 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:36:14,424 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:36:14,828 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 16:38:11,519 - INFO - Using session file: gonenSession789754
+2025-06-16 16:38:11,527 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:38:11,711 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:39:06,319 - INFO - Using session file: Session991345
+2025-06-16 16:39:06,326 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:39:06,510 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:39:08,314 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:40:05,920 - INFO - Using session file: Session633470
+2025-06-16 16:40:06,014 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:40:06,110 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:40:07,918 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:40:08,919 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 16:40:09,012 - INFO - Found 1 unread messages in source channel.
+2025-06-16 16:46:09,216 - INFO - Using session file: Session991345
+2025-06-16 16:46:09,224 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:46:09,322 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:46:10,515 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:46:11,009 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 16:46:11,010 - INFO - Found 2 unread messages in source channel.
+2025-06-16 16:46:13,229 - INFO - Translated message ID 250722
+2025-06-16 16:46:13,704 - INFO - Sent and acknowledged message ID 250722
+2025-06-16 16:46:15,995 - INFO - Translated message ID 250723
+2025-06-16 16:46:16,430 - INFO - Sent and acknowledged message ID 250723
+2025-06-16 16:47:07,316 - INFO - Using session file: Session601384
+2025-06-16 16:47:07,323 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:47:07,510 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:47:09,724 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:48:12,620 - INFO - Using session file: Session17331
+2025-06-16 16:48:12,716 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:48:12,814 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:48:14,026 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:48:14,531 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 16:50:06,813 - INFO - Using session file: Session17331
+2025-06-16 16:50:06,820 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:50:06,919 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:50:09,220 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:57:14,619 - INFO - Using session file: Session601384
+2025-06-16 16:57:14,716 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:57:14,815 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:57:15,832 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:57:16,194 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 16:57:16,194 - INFO - Found 9 unread messages in source channel.
+2025-06-16 16:57:18,714 - INFO - Translated message ID 250724
+2025-06-16 16:57:19,174 - INFO - Sent and acknowledged message ID 250724
+2025-06-16 16:57:19,288 - INFO - Sent and acknowledged message ID 250725
+2025-06-16 16:57:19,413 - INFO - Sent and acknowledged message ID 250726
+2025-06-16 16:57:19,526 - INFO - Sent and acknowledged message ID 250727
+2025-06-16 16:57:19,640 - INFO - Sent and acknowledged message ID 250728
+2025-06-16 16:57:19,759 - INFO - Sent and acknowledged message ID 250729
+2025-06-16 16:57:22,240 - INFO - Translated message ID 250730
+2025-06-16 16:57:22,541 - INFO - Sent and acknowledged message ID 250730
+2025-06-16 16:57:22,658 - INFO - Sent and acknowledged message ID 250731
+2025-06-16 16:57:24,850 - INFO - Translated message ID 250732
+2025-06-16 16:57:25,224 - INFO - Sent and acknowledged message ID 250732
+2025-06-16 16:58:13,934 - INFO - Using session file: Session17331
+2025-06-16 16:58:14,018 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:58:14,116 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 16:58:15,166 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 16:58:15,671 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 16:59:04,114 - INFO - Using session file: gonenSession789754
+2025-06-16 16:59:04,119 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 16:59:04,219 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:00:14,415 - INFO - Using session file: Session633470
+2025-06-16 17:00:14,422 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:00:14,518 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:00:15,727 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:00:16,240 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:01:12,119 - INFO - Using session file: Session601384
+2025-06-16 17:01:12,215 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:01:12,314 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:01:13,498 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:01:13,956 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:02:08,118 - INFO - Using session file: Session991345
+2025-06-16 17:02:08,214 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:02:08,310 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:02:09,817 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:02:10,419 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:04:08,614 - INFO - Using session file: Session601384
+2025-06-16 17:04:08,621 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:04:08,722 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:05:12,424 - INFO - Using session file: Session17331
+2025-06-16 17:05:12,518 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:05:12,615 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:05:13,739 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:05:14,117 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:08:10,014 - INFO - Using session file: gonenSession789754
+2025-06-16 17:08:10,118 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:08:10,214 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:09:12,322 - INFO - Using session file: Session633470
+2025-06-16 17:09:12,416 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:09:12,515 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:09:13,813 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:09:14,421 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:11:12,121 - INFO - Using session file: Session17331
+2025-06-16 17:11:12,216 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:11:12,314 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:11:13,559 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:11:14,058 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:13:07,728 - INFO - Using session file: gonenSession789754
+2025-06-16 17:13:07,735 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:13:07,830 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:14:08,921 - INFO - Using session file: gonenSession789754
+2025-06-16 17:14:09,017 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:14:09,118 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:16:12,415 - INFO - Using session file: Session601384
+2025-06-16 17:16:12,512 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:16:12,608 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:16:13,661 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:16:14,010 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:16:14,010 - INFO - Found 5 unread messages in source channel.
+2025-06-16 17:16:16,104 - INFO - Translated message ID 250733
+2025-06-16 17:16:16,388 - INFO - Sent and acknowledged message ID 250733
+2025-06-16 17:16:18,441 - INFO - Translated message ID 250734
+2025-06-16 17:16:18,946 - INFO - Sent and acknowledged message ID 250734
+2025-06-16 17:16:21,134 - INFO - Translated message ID 250735
+2025-06-16 17:16:21,433 - INFO - Sent and acknowledged message ID 250735
+2025-06-16 17:16:21,541 - INFO - Sent and acknowledged message ID 250736
+2025-06-16 17:16:21,655 - INFO - Sent and acknowledged message ID 250737
+2025-06-16 17:18:08,831 - INFO - Using session file: Session633470
+2025-06-16 17:18:08,914 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:18:09,015 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:20:12,724 - INFO - Using session file: gonenSession789754
+2025-06-16 17:20:12,819 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:20:12,915 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:23:15,426 - INFO - Using session file: Session17331
+2025-06-16 17:23:15,434 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:23:15,531 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:23:16,648 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:23:17,216 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:26:12,615 - INFO - Using session file: Session601384
+2025-06-16 17:26:12,622 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:26:12,813 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:26:14,170 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:26:14,627 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:26:14,627 - INFO - Found 2 unread messages in source channel.
+2025-06-16 17:26:17,039 - INFO - Translated message ID 250738
+2025-06-16 17:26:17,337 - INFO - Sent and acknowledged message ID 250738
+2025-06-16 17:26:17,462 - INFO - Sent and acknowledged message ID 250739
+2025-06-16 17:30:14,827 - INFO - Using session file: Session991345
+2025-06-16 17:30:14,834 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:30:15,011 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:30:16,121 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:30:16,720 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:30:16,720 - INFO - Found 4 unread messages in source channel.
+2025-06-16 17:30:18,765 - INFO - Translated message ID 250740
+2025-06-16 17:30:19,103 - INFO - Sent and acknowledged message ID 250740
+2025-06-16 17:30:20,686 - INFO - Translated message ID 250741
+2025-06-16 17:30:20,999 - INFO - Sent and acknowledged message ID 250741
+2025-06-16 17:30:21,120 - INFO - Sent and acknowledged message ID 250742
+2025-06-16 17:30:21,239 - INFO - Sent and acknowledged message ID 250743
+2025-06-16 17:31:14,515 - INFO - Using session file: Session991345
+2025-06-16 17:31:14,523 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:31:14,710 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:31:15,927 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:31:16,529 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:32:14,620 - INFO - Using session file: Session601384
+2025-06-16 17:32:14,712 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:32:14,811 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:32:16,240 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:32:16,760 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:34:14,118 - INFO - Using session file: gonenSession789754
+2025-06-16 17:34:14,212 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:34:14,308 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:36:08,517 - INFO - Using session file: gonenSession789754
+2025-06-16 17:36:08,613 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:36:08,711 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:38:11,913 - INFO - Using session file: Session17331
+2025-06-16 17:38:11,920 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:38:12,015 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:38:13,223 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:38:13,714 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:38:13,714 - INFO - Found 2 unread messages in source channel.
+2025-06-16 17:38:13,966 - INFO - Sent and acknowledged message ID 250744
+2025-06-16 17:38:15,402 - INFO - Translated message ID 250745
+2025-06-16 17:38:15,689 - INFO - Sent and acknowledged message ID 250745
+2025-06-16 17:39:12,315 - INFO - Using session file: Session991345
+2025-06-16 17:39:12,322 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:39:12,423 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:39:13,573 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:39:14,109 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:41:12,813 - INFO - Using session file: gonenSession789754
+2025-06-16 17:41:12,821 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:41:12,919 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:43:12,223 - INFO - Using session file: gonenSession789754
+2025-06-16 17:43:12,315 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:43:12,414 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:45:14,516 - INFO - Using session file: Session633470
+2025-06-16 17:45:14,524 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:45:14,710 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:45:16,113 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:45:16,624 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:47:08,919 - INFO - Using session file: Session991345
+2025-06-16 17:47:09,014 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:47:09,115 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:47:11,020 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:47:11,716 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:48:12,327 - INFO - Using session file: Session991345
+2025-06-16 17:48:12,416 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:48:12,512 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:48:13,627 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:48:14,077 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:50:12,525 - INFO - Using session file: Session17331
+2025-06-16 17:50:12,616 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:50:12,717 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:50:14,015 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:50:14,408 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:52:12,432 - INFO - Using session file: Session17331
+2025-06-16 17:52:12,521 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:52:12,620 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:52:13,821 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:52:14,225 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:53:09,219 - INFO - Using session file: Session991345
+2025-06-16 17:53:09,314 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:53:09,410 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:53:10,711 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:53:11,228 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:54:12,618 - INFO - Using session file: Session633470
+2025-06-16 17:54:12,713 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:54:12,814 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:54:13,996 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:54:14,417 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:56:07,919 - INFO - Using session file: gonenSession789754
+2025-06-16 17:56:08,016 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:56:08,118 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:58:14,314 - INFO - Using session file: Session17331
+2025-06-16 17:58:14,322 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:58:14,508 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:58:15,972 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:58:16,424 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 17:58:16,424 - INFO - Found 1 unread messages in source channel.
+2025-06-16 17:58:18,905 - INFO - Translated message ID 250746
+2025-06-16 17:58:19,213 - INFO - Sent and acknowledged message ID 250746
+2025-06-16 17:59:13,029 - INFO - Using session file: Session991345
+2025-06-16 17:59:13,114 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 17:59:13,209 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 17:59:14,614 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 17:59:14,961 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:00:09,835 - INFO - Using session file: Session601384
+2025-06-16 18:00:09,917 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:00:10,016 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:00:11,703 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:00:12,088 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:01:14,515 - INFO - Using session file: Session601384
+2025-06-16 18:01:14,521 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:01:14,617 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:01:15,762 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:01:16,284 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:04:12,513 - INFO - Using session file: Session991345
+2025-06-16 18:04:12,522 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:04:12,619 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:04:13,720 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:04:14,081 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:04:14,081 - INFO - Found 1 unread messages in source channel.
+2025-06-16 18:04:16,249 - INFO - Translated message ID 250747
+2025-06-16 18:04:16,660 - INFO - Sent and acknowledged message ID 250747
+2025-06-16 18:05:13,115 - INFO - Using session file: Session991345
+2025-06-16 18:05:13,123 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:05:13,310 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:05:14,400 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:05:14,805 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:08:07,915 - INFO - Using session file: Session633470
+2025-06-16 18:08:07,922 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:08:08,020 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:09:12,515 - INFO - Using session file: Session17331
+2025-06-16 18:09:12,523 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:09:12,621 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:09:13,704 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:09:14,112 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:10:12,722 - INFO - Using session file: Session633470
+2025-06-16 18:10:12,816 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:10:12,912 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:10:14,114 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:10:14,531 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:11:08,121 - INFO - Using session file: gonenSession789754
+2025-06-16 18:11:08,216 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:11:08,315 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:12:13,122 - INFO - Using session file: Session991345
+2025-06-16 18:12:13,217 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:12:13,316 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:12:14,432 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:12:14,815 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:15:08,714 - INFO - Using session file: Session17331
+2025-06-16 18:15:08,721 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:15:08,819 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:15:11,012 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:20:12,113 - INFO - Using session file: Session601384
+2025-06-16 18:20:12,119 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:20:12,215 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:20:13,304 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:20:13,646 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:20:13,712 - INFO - Found 7 unread messages in source channel.
+2025-06-16 18:20:16,392 - INFO - Translated message ID 250748
+2025-06-16 18:20:16,794 - INFO - Sent and acknowledged message ID 250748
+2025-06-16 18:20:16,931 - INFO - Sent and acknowledged message ID 250749
+2025-06-16 18:20:17,061 - INFO - Sent and acknowledged message ID 250750
+2025-06-16 18:20:17,171 - INFO - Sent and acknowledged message ID 250751
+2025-06-16 18:20:17,279 - INFO - Sent and acknowledged message ID 250752
+2025-06-16 18:20:17,387 - INFO - Sent and acknowledged message ID 250753
+2025-06-16 18:20:19,477 - INFO - Translated message ID 250754
+2025-06-16 18:20:19,767 - INFO - Sent and acknowledged message ID 250754
+2025-06-16 18:21:13,423 - INFO - Using session file: Session633470
+2025-06-16 18:21:13,430 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:21:13,532 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:21:14,745 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:21:15,296 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:21:15,296 - INFO - Found 1 unread messages in source channel.
+2025-06-16 18:21:16,671 - INFO - Translated message ID 250755
+2025-06-16 18:21:17,019 - INFO - Sent and acknowledged message ID 250755
+2025-06-16 18:22:15,613 - INFO - Using session file: Session17331
+2025-06-16 18:22:15,622 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:22:15,718 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:22:16,719 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:22:17,105 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:24:08,717 - INFO - Using session file: gonenSession789754
+2025-06-16 18:24:08,812 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:24:08,914 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:30:09,013 - INFO - Using session file: Session17331
+2025-06-16 18:30:09,020 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:30:09,119 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:31:11,815 - INFO - Using session file: Session991345
+2025-06-16 18:31:11,822 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:31:12,009 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:31:13,846 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:31:14,425 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:31:14,426 - INFO - Found 2 unread messages in source channel.
+2025-06-16 18:31:14,723 - INFO - Sent and acknowledged message ID 250756
+2025-06-16 18:31:16,788 - INFO - Translated message ID 250757
+2025-06-16 18:31:17,088 - INFO - Sent and acknowledged message ID 250757
+2025-06-16 18:32:08,530 - INFO - Using session file: Session633470
+2025-06-16 18:32:08,612 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:32:08,713 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:32:10,624 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:33:08,320 - INFO - Using session file: Session601384
+2025-06-16 18:33:08,415 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:33:08,514 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:35:12,622 - INFO - Using session file: Session17331
+2025-06-16 18:35:12,716 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:35:12,817 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:35:16,315 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:35:16,669 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:35:16,669 - INFO - Found 2 unread messages in source channel.
+2025-06-16 18:35:19,422 - INFO - Translated message ID 250758
+2025-06-16 18:35:19,961 - INFO - Sent and acknowledged message ID 250758
+2025-06-16 18:35:22,558 - INFO - Translated message ID 250759
+2025-06-16 18:35:22,895 - INFO - Sent and acknowledged message ID 250759
+2025-06-16 18:38:12,621 - INFO - Using session file: Session17331
+2025-06-16 18:38:12,629 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:38:12,725 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:38:13,705 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-06-16 18:38:14,319 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-06-16 18:38:14,319 - INFO - Found 1 unread messages in source channel.
+2025-06-16 18:38:16,663 - INFO - Translated message ID 250760
+2025-06-16 18:38:16,984 - INFO - Sent and acknowledged message ID 250760
+2025-06-16 18:45:08,016 - INFO - Using session file: Session17331
+2025-06-16 18:45:08,023 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:45:08,121 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:47:11,327 - INFO - Using session file: gonenSession789754
+2025-06-16 18:47:11,335 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:47:11,507 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:51:08,620 - INFO - Using session file: Session17331
+2025-06-16 18:51:08,628 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:51:08,726 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:53:12,627 - INFO - Using session file: Session633470
+2025-06-16 18:53:12,715 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:53:12,811 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:53:13,913 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 18:53:14,419 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 18:54:13,113 - INFO - Using session file: Session991345
+2025-06-16 18:54:13,120 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:54:13,310 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:54:14,422 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 18:54:15,289 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 18:59:14,033 - INFO - Using session file: Session991345
+2025-06-16 18:59:14,118 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 18:59:14,218 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 18:59:15,428 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 18:59:15,815 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:00:07,722 - INFO - Using session file: Session17331
+2025-06-16 19:00:07,817 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:00:07,916 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:00:11,117 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:02:06,513 - INFO - Using session file: Session633470
+2025-06-16 19:02:06,522 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:02:06,708 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:02:08,513 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:02:10,913 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:03:05,713 - INFO - Using session file: Session601384
+2025-06-16 19:03:05,720 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:03:05,821 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:03:08,031 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:04:08,618 - INFO - Using session file: Session991345
+2025-06-16 19:04:08,712 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:04:08,811 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:08:15,716 - INFO - Using session file: Session601384
+2025-06-16 19:08:15,723 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:08:15,824 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:08:17,120 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:08:17,529 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:09:07,421 - INFO - Using session file: Session601384
+2025-06-16 19:09:07,428 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:09:07,530 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:09:10,618 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:10:08,921 - INFO - Using session file: Session991345
+2025-06-16 19:10:09,016 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:10:09,118 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:12:08,714 - INFO - Using session file: Session17331
+2025-06-16 19:12:08,722 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:12:08,821 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:12:10,713 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:18:20,124 - INFO - Using session file: Session633470
+2025-06-16 19:18:20,218 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:18:20,317 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:18:21,422 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:18:21,820 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:20:12,326 - INFO - Using session file: Session991345
+2025-06-16 19:20:12,418 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:20:12,516 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:20:13,713 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:20:14,221 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:21:15,122 - INFO - Using session file: Session17331
+2025-06-16 19:21:15,219 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:21:15,317 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:21:16,516 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:21:16,919 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:23:07,320 - INFO - Using session file: Session17331
+2025-06-16 19:23:07,416 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:23:07,517 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:23:10,415 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:24:09,312 - INFO - Using session file: Session991345
+2025-06-16 19:24:09,320 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:24:09,513 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:24:11,312 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:29:15,433 - INFO - Using session file: Session601384
+2025-06-16 19:29:15,516 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:29:15,614 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:29:16,616 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:29:17,019 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:30:08,923 - INFO - Using session file: Session17331
+2025-06-16 19:30:09,019 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:30:09,117 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:30:11,417 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:32:06,221 - INFO - Using session file: gonenSession789754
+2025-06-16 19:32:06,229 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:32:06,328 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:34:09,521 - INFO - Using session file: Session17331
+2025-06-16 19:34:09,616 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:34:09,717 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:35:09,412 - INFO - Using session file: Session633470
+2025-06-16 19:35:09,420 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:35:09,518 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:35:11,716 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:36:09,231 - INFO - Using session file: gonenSession789754
+2025-06-16 19:36:09,316 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:36:09,411 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:40:16,215 - INFO - Using session file: Session633470
+2025-06-16 19:40:16,313 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:40:16,409 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:40:18,014 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:40:18,619 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:40:18,619 - INFO - Found 2 unread messages in source channel.
+2025-06-16 19:40:20,617 - INFO - Translated message ID 686
+2025-06-16 19:40:20,930 - INFO - Sent and acknowledged message ID 686
+2025-06-16 19:40:23,179 - INFO - Translated message ID 687
+2025-06-16 19:40:23,539 - INFO - Sent and acknowledged message ID 687
+2025-06-16 19:44:15,235 - INFO - Using session file: Session601384
+2025-06-16 19:44:15,319 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:44:15,417 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:44:16,820 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:44:17,412 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:49:13,616 - INFO - Using session file: Session991345
+2025-06-16 19:49:13,625 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:49:13,810 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:49:15,621 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:49:16,204 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:51:12,220 - INFO - Using session file: Session601384
+2025-06-16 19:51:12,316 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:51:12,415 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:51:13,917 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:51:14,515 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:53:05,815 - INFO - Using session file: Session17331
+2025-06-16 19:53:05,823 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:53:06,012 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:53:08,218 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:53:10,316 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:54:06,020 - INFO - Using session file: Session633470
+2025-06-16 19:54:06,027 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:54:06,125 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:54:08,331 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:54:10,613 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:55:12,617 - INFO - Using session file: Session17331
+2025-06-16 19:55:12,624 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:55:12,726 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:55:14,121 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 19:55:14,537 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 19:56:15,734 - INFO - Using session file: Session633470
+2025-06-16 19:56:15,818 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 19:56:15,913 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 19:56:17,316 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:05:12,925 - INFO - Using session file: Session991345
+2025-06-16 20:05:13,020 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:05:13,116 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:05:14,436 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:05:15,122 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:06:15,333 - INFO - Using session file: Session991345
+2025-06-16 20:06:15,416 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:06:15,514 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:06:17,013 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:06:17,621 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:07:20,220 - INFO - Using session file: Session633470
+2025-06-16 20:07:20,314 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:07:20,413 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:07:21,543 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:07:21,943 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:09:14,116 - INFO - Using session file: gonenSession789754
+2025-06-16 20:09:14,125 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:09:14,224 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:14:06,724 - INFO - Using session file: Session17331
+2025-06-16 20:14:06,820 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:14:06,919 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:14:09,214 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:15:08,219 - INFO - Using session file: gonenSession789754
+2025-06-16 20:15:08,315 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:15:08,412 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:16:08,222 - INFO - Using session file: Session17331
+2025-06-16 20:16:08,319 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:16:08,418 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:16:10,115 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:16:10,635 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:17:09,024 - INFO - Using session file: Session991345
+2025-06-16 20:17:09,119 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:17:09,215 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:19:06,535 - INFO - Using session file: Session991345
+2025-06-16 20:19:06,619 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:19:06,721 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:23:08,314 - INFO - Using session file: gonenSession789754
+2025-06-16 20:23:08,322 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:24:12,937 - INFO - Using session file: Session991345
+2025-06-16 20:24:13,019 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:24:13,116 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:24:14,324 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:24:14,789 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:27:12,412 - INFO - Using session file: gonenSession789754
+2025-06-16 20:27:12,420 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:27:12,521 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:32:20,814 - INFO - Using session file: Session601384
+2025-06-16 20:32:20,821 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:32:20,919 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:32:22,313 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:32:22,922 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:36:08,323 - INFO - Using session file: Session991345
+2025-06-16 20:36:08,419 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:36:08,519 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:37:15,425 - INFO - Using session file: Session991345
+2025-06-16 20:37:15,520 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:37:15,618 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:37:16,813 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:37:17,229 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:38:07,512 - INFO - Using session file: Session601384
+2025-06-16 20:38:07,520 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:38:07,618 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:38:11,016 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:41:09,215 - INFO - Using session file: gonenSession789754
+2025-06-16 20:41:09,224 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:41:09,325 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:42:08,414 - INFO - Using session file: Session601384
+2025-06-16 20:42:08,422 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:42:08,524 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:43:16,020 - INFO - Using session file: Session17331
+2025-06-16 20:43:16,116 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:43:16,214 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:43:17,605 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:43:18,020 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:44:07,417 - INFO - Using session file: Session991345
+2025-06-16 20:44:07,424 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:44:07,523 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:45:09,215 - INFO - Using session file: Session601384
+2025-06-16 20:45:09,312 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:45:09,408 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:45:11,617 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:46:06,320 - INFO - Using session file: Session17331
+2025-06-16 20:46:06,417 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:46:06,513 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:46:09,113 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:50:15,319 - INFO - Using session file: Session633470
+2025-06-16 20:50:15,417 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:50:15,513 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:50:16,821 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:50:17,259 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:50:17,312 - INFO - Found 1 unread messages in source channel.
+2025-06-16 20:50:20,258 - INFO - Translated message ID 688
+2025-06-16 20:50:20,364 - ERROR - Error sending/acknowledging message ID 688: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 20:51:16,625 - INFO - Using session file: gonenSession789754
+2025-06-16 20:51:16,719 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:51:16,819 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:52:07,622 - INFO - Using session file: Session633470
+2025-06-16 20:52:07,717 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:52:07,816 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:52:11,513 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:53:07,920 - INFO - Using session file: Session601384
+2025-06-16 20:53:07,927 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:53:08,023 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:55:12,824 - INFO - Using session file: Session17331
+2025-06-16 20:55:12,919 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:55:13,018 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:55:16,632 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 20:55:17,027 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 20:55:17,027 - INFO - Found 1 unread messages in source channel.
+2025-06-16 20:55:18,934 - INFO - Translated message ID 688
+2025-06-16 20:55:19,063 - ERROR - Error sending/acknowledging message ID 688: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 20:57:06,814 - INFO - Using session file: Session601384
+2025-06-16 20:57:06,821 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 20:57:06,919 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 20:57:09,218 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:04:12,114 - INFO - Using session file: Session633470
+2025-06-16 21:04:12,121 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:04:12,307 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:04:13,532 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:04:14,117 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:04:14,117 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:04:16,534 - INFO - Translated message ID 688
+2025-06-16 21:04:16,675 - ERROR - Error sending/acknowledging message ID 688: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 21:05:15,820 - INFO - Using session file: Session17331
+2025-06-16 21:05:15,916 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:05:16,015 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:05:17,113 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:05:17,472 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:05:17,472 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:05:20,287 - INFO - Translated message ID 688
+2025-06-16 21:05:20,464 - ERROR - Error sending/acknowledging message ID 688: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 21:06:05,815 - INFO - Using session file: Session601384
+2025-06-16 21:06:05,822 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:06:05,920 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:06:07,536 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:06:08,536 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:06:08,536 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:09:06,619 - INFO - Using session file: Session633470
+2025-06-16 21:09:06,716 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:09:06,811 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:09:09,023 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:10:06,717 - INFO - Using session file: gonenSession789754
+2025-06-16 21:10:06,812 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:10:06,908 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:12:14,235 - INFO - Using session file: gonenSession789754
+2025-06-16 21:12:14,320 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:12:14,421 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:15:08,113 - INFO - Using session file: Session633470
+2025-06-16 21:15:08,120 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:15:08,216 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:15:10,315 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:16:05,117 - INFO - Using session file: Session991345
+2025-06-16 21:16:05,122 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:16:05,220 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:16:07,416 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:16:08,720 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:16:08,720 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:17:15,517 - INFO - Using session file: gonenSession789754
+2025-06-16 21:17:15,526 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:17:15,622 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:19:12,827 - INFO - Using session file: Session601384
+2025-06-16 21:19:12,834 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:19:13,010 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:19:14,119 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:19:14,476 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:19:14,476 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:19:15,867 - INFO - Translated message ID 688
+2025-06-16 21:19:16,043 - ERROR - Error sending/acknowledging message ID 688: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 21:20:12,321 - INFO - Using session file: Session633470
+2025-06-16 21:20:12,416 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:20:12,514 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:20:13,525 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:20:14,013 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:20:14,013 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:20:16,563 - INFO - Translated message ID 688
+2025-06-16 21:20:16,669 - ERROR - Error sending/acknowledging message ID 688: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 21:23:15,121 - INFO - Using session file: Session633470
+2025-06-16 21:23:15,127 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:23:15,226 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:23:16,421 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:23:16,918 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:23:16,918 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:23:19,464 - INFO - Translated message ID 688
+2025-06-16 21:23:19,629 - ERROR - Error sending/acknowledging message ID 688: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 21:26:08,622 - INFO - Using session file: Session991345
+2025-06-16 21:26:08,717 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:26:08,818 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:28:06,824 - INFO - Using session file: gonenSession789754
+2025-06-16 21:28:06,919 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:28:07,015 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:29:13,216 - INFO - Using session file: gonenSession789754
+2025-06-16 21:29:13,223 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:29:13,410 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:30:15,916 - INFO - Using session file: Session601384
+2025-06-16 21:30:16,014 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:30:16,113 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:30:17,416 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:30:17,920 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:30:17,920 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:30:19,310 - INFO - Translated message ID 688
+2025-06-16 21:30:19,427 - ERROR - Error sending/acknowledging message ID 688: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 21:46:51,634 - INFO - Using session file: Session633470
+2025-06-16 21:46:51,717 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:46:51,818 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:46:53,261 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:46:53,809 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:48:07,715 - INFO - Using session file: Session601384
+2025-06-16 21:48:07,722 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:48:07,820 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:48:09,015 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:48:09,424 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:49:04,818 - INFO - Using session file: Session633470
+2025-06-16 21:49:04,822 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:49:04,920 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:49:06,627 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:49:07,621 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-16 21:49:07,621 - INFO - Found 1 unread messages in source channel.
+2025-06-16 21:49:10,319 - INFO - Translated message ID 689
+2025-06-16 21:49:10,319 - ERROR - Error sending media message ID 689: send_message() got an unexpected keyword argument 'caption'
+2025-06-16 21:49:10,524 - INFO - Sent and acknowledged message ID 689
+2025-06-16 21:50:20,629 - INFO - Using session file: Session633470
+2025-06-16 21:50:20,639 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-16 21:50:20,812 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-16 21:50:22,030 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-16 21:50:22,449 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-17 00:51:03,714 - INFO - Using session file: Session601384
+2025-06-17 00:51:03,821 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-17 00:51:03,919 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-17 00:51:05,213 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-17 00:51:05,520 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-17 00:54:12,815 - INFO - Using session file: Session991345
+2025-06-17 00:54:12,836 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-17 00:54:13,010 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-17 00:54:14,124 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-17 00:54:14,525 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-06-17 00:55:05,022 - INFO - Using session file: Session17331
+2025-06-17 00:55:05,217 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-06-17 00:55:05,313 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-06-17 00:55:06,529 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-06-17 00:55:06,848 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון

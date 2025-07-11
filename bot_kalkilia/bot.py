@@ -38,14 +38,22 @@ client = TelegramClient(session_name, api_id, api_hash)
 LAST_ID_FILE = "last_id.txt"
 
 def get_last_processed_id():
-    if os.path.exists(LAST_ID_FILE):
-        with open(LAST_ID_FILE, "r") as f:
-            return int(f.read().strip())
-    return 0
+    try:
+        if os.path.exists(LAST_ID_FILE):
+            with open(LAST_ID_FILE, "r") as f:
+                content = f.read().strip()
+                if content:
+                    return int(content)
+    except Exception as e:
+        logging.error(f"Error reading last processed ID from file: {e}")
+    return None  # Return None if the file is empty or there's an error
 
 def save_last_processed_id(msg_id):
-    with open(LAST_ID_FILE, "w") as f:
-        f.write(str(msg_id))
+    try:
+        with open(LAST_ID_FILE, "w") as f:
+            f.write(str(msg_id))
+    except Exception as e:
+        logging.error(f"Error saving last processed ID to file: {e}")
 
 
 async def findGroup(GroupID: int):
@@ -68,15 +76,21 @@ async def main():
         logging.error("Could not find source or destination channel.")
         return
 
-    logging.info(f"Fetching messages from: {source_channel.name}, after message ID: {last_id}")
+    # Fetch messages after the last processed ID, or if it's None (empty file), fetch the last 10 messages
     mess = []
 
     try:
-        async for i in client.iter_messages(source_channel, limit=20):  # Fetch more in case of gaps
-            if i.id <= last_id:
-                continue
-            if not i.action:  # skip service messages
-                mess.insert(0, i)  # ensure chronological order
+        if last_id is None:
+            # No last_id found, fetch the last 10 messages
+            logging.info("No last processed ID found, fetching last 10 messages.")
+            async for i in client.iter_messages(source_channel, limit=10):
+                if not i.action:  # skip service messages
+                    mess.insert(0, i)  # ensure chronological order
+        else:
+            logging.info(f"Fetching messages from: {source_channel.name}, after message ID: {last_id}")
+            async for i in client.iter_messages(source_channel, min_id=last_id + 1, limit=50):
+                if not i.action:  # skip service messages
+                    mess.insert(0, i)  # ensure chronological order
     except Exception as e:
         logging.error(f"Error while fetching messages: {e}")
         return

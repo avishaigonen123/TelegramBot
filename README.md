@@ -71,12 +71,15 @@ To automate script execution, you can use **cron jobs**. The bot scripts run onc
 ## 🔗 Join Our Telegram Groups
 Stay updated and get support by joining our Telegram groups:
 - 📢 **Jenin News:** [Join Here](https://t.me/+MGnQsMZ5FL5mNjk8)
+- 📢 **Salfit News:** [Join Here](https://t.me/+yJXGlxsV12YwYWJk)
 - 📢 **Kalkilia News:** [Join Here](https://t.me/+OfUzBG9yTZU1MDk0)
 - 📢 **Tubas News:** [Join Here](https://t.me/+4UH5xt-sfTQyMDNk)
 - 📢 **Nablus News:** [Join Here](https://t.me/+9vULSIuHQ7RlYjI0)
 - 📢 **Gaza News:** [Join Here](https://t.me/+_b4ZozXYKi41OGM0)
 - 📢 **Suria News:** [Join Here](https://t.me/+MPKAi42velpmMGI0)
 - 📢 **Iran News:** [Join Here](https://t.me/+a-fAkmiPVu1kMDZk)
+- 📢 **Naya News:** [Join Here](https://t.me/+iM3lb6VCnO1lZWI0)
+- 📢 **Iran Truth checker:** [Join Here](https://t.me/+Dlp5D-l5RYQwOWQ0)
 
 ## 📜 License
 This project is licensed under the MIT License. Feel free to contribute and improve it!

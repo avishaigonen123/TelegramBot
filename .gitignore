@@ -7,3 +7,5 @@
 #remove python cache
 __pycache__/
 
+#remove log files
+*.log

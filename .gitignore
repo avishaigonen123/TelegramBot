@@ -3,6 +3,8 @@
 
 #remove sessions files
 *.session
+#remove session journal files
+*.session-journal
 
 #remove python cache
 __pycache__/

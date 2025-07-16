@@ -10,4 +10,4 @@
 __pycache__/
 
 #remove log files
-*.log
+*.log*.log

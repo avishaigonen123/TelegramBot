@@ -46,7 +46,7 @@ def get_last_processed_id():
                     return int(content)
     except Exception as e:
         logging.error(f"Error reading last processed ID from file: {e}")
-    return None  # Return None if the file is empty or there's an error
+    return None
 
 def save_last_processed_id(msg_id):
     try:
@@ -55,7 +55,6 @@ def save_last_processed_id(msg_id):
     except Exception as e:
         logging.error(f"Error saving last processed ID to file: {e}")
 
-
 async def findGroup(GroupID: int):
     async for i in client.iter_dialogs():
         if i.id == GroupID:
@@ -63,7 +62,6 @@ async def findGroup(GroupID: int):
             return i
     logging.warning(f"Group with ID {GroupID} not found.")
     return None
-
 
 async def main():
     translator = Translator()
@@ -76,76 +74,71 @@ async def main():
         logging.error("Could not find source or destination channel.")
         return
 
-    # Fetch messages after the last processed ID, or if it's None (empty file), fetch the last 10 messages
-    mess = []
+    messages = []
 
     try:
         if last_id is None:
-            # No last_id found, fetch the last 10 messages
             logging.info("No last processed ID found, fetching last 10 messages.")
-            async for i in client.iter_messages(source_channel, limit=10):
-                if not i.action:  # skip service messages
-                    mess.insert(0, i)  # ensure chronological order
+            async for msg in client.iter_messages(source_channel, limit=10, reverse=True):
+                if not msg.action:
+                    messages.append(msg)
         else:
-            logging.info(f"Fetching messages from: {source_channel.name}, after message ID: {last_id}")
-            async for i in client.iter_messages(source_channel, min_id=last_id + 1, limit=50):
-                if not i.action:  # skip service messages
-                    mess.insert(0, i)  # ensure chronological order
+            logging.info(f"Fetching messages after message ID {last_id}")
+            async for msg in client.iter_messages(source_channel, min_id=last_id, reverse=True):
+                if not msg.action:
+                    messages.append(msg)
     except Exception as e:
         logging.error(f"Error while fetching messages: {e}")
         return
 
-    if not mess:
+    if not messages:
         logging.info("No new messages to process.")
         return
 
-    for i in mess:
+    for msg in messages:
         try:
-            if not i.text and not i.media:
-                logging.info(f"Skipping empty message ID {i.id}")
+            if not msg.text and not msg.media:
+                logging.info(f"Skipping empty message ID {msg.id}")
                 continue
 
-            try:
-                original_text = i.text or ""
-                if original_text.strip():
+            original_text = msg.text or ""
+            translated_text = ""
+
+            if original_text.strip():
+                try:
                     translated_text = translator.translate(original_text, dest='he').text
-                    logging.info(f"Translated message ID {i.id}")
-                else:
-                    translated_text = ""
-                    logging.info(f"No text to translate in message ID {i.id}")
-            except Exception as e:
-                translated_text = ""
-                logging.warning(f"Translation failed for message ID {i.id}: {e}")
+                    logging.info(f"Translated message ID {msg.id}")
+                except Exception as e:
+                    logging.warning(f"Translation failed for message ID {msg.id}: {e}")
 
             # Handle media
-            if i.media:
+            if msg.media:
                 try:
-                    await client.send_message(destination_channel, file=i.media, message=translated_text)
-                    logging.info(f"Sent media message ID {i.id} with caption")
+                    await client.send_message(destination_channel, file=msg.media, message=translated_text)
+                    logging.info(f"Sent media message ID {msg.id} with caption")
                 except Exception as e:
                     logging.warning(f"Failed with caption, trying without caption: {e}")
                     try:
-                        await client.send_message(destination_channel, file=i.media)
-                        logging.info(f"Sent media message ID {i.id} without caption")
+                        await client.send_message(destination_channel, file=msg.media)
+                        logging.info(f"Sent media message ID {msg.id} without caption")
                     except Exception as e2:
-                        logging.error(f"Failed sending media message ID {i.id}: {e2}")
+                        logging.error(f"Failed sending media message ID {msg.id}: {e2}")
             else:
                 try:
                     await client.send_message(destination_channel, translated_text)
-                    logging.info(f"Sent text message ID {i.id}")
+                    logging.info(f"Sent text message ID {msg.id}")
                 except Exception as e:
-                    logging.error(f"Error sending text message ID {i.id}: {e}")
+                    logging.error(f"Error sending text message ID {msg.id}: {e}")
 
-            # Acknowledge as read
-            await client.send_read_acknowledge(source_channel, max_id=i.id)
-            logging.info(f"Acknowledged message ID {i.id}")
+            # Mark as read
+            await client.send_read_acknowledge(source_channel, max_id=msg.id)
+            logging.info(f"Acknowledged message ID {msg.id}")
 
-            # Save last processed ID
-            save_last_processed_id(i.id)
+            # Save the last processed message ID
+            save_last_processed_id(msg.id)
 
         except Exception as e:
-            logging.error(f"Error processing message ID {i.id}: {e}")
-
+            logging.error(f"Error processing message ID {msg.id}: {e}")
 
 # Run
 client.start(phone_number)

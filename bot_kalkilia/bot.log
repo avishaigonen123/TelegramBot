@@ -1,0 +1,7 @@
+2025-07-16 22:54:06,223 - INFO - Using session file: gonenSession165136
+2025-07-16 22:54:06,425 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-16 22:54:06,524 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-16 22:54:08,826 - INFO - Found group with ID -1001787475137: أخبار قلقيلية
+2025-07-16 22:54:09,493 - INFO - Found group with ID -1002326625056: חדשות קלקיליה
+2025-07-16 22:54:09,493 - INFO - Fetching messages after message ID 48291
+2025-07-16 22:54:09,632 - INFO - No new messages to process.

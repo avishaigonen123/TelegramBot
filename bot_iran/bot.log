@@ -1,0 +1,7 @@
+2025-07-16 22:54:06,531 - INFO - Using session file: gonenSession61396
+2025-07-16 22:54:06,627 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-16 22:54:06,725 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-16 22:54:08,145 - INFO - Found group with ID -1001007007698: آخرین خبر
+2025-07-16 22:54:08,729 - INFO - Found group with ID -1002731389470: חדשות איראן
+2025-07-16 22:54:08,730 - INFO - Fetching messages after message ID 523903
+2025-07-16 22:54:08,844 - INFO - No new messages to process.

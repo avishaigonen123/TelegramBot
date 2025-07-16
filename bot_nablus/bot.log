@@ -1,7 +1,7 @@
-2025-07-16 22:54:05,716 - INFO - Using session file: Session633470
-2025-07-16 22:54:05,826 - INFO - Connecting to 149.154.167.92:443/TcpFull...
-2025-07-16 22:54:05,927 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
-2025-07-16 22:54:07,400 - INFO - Found group with ID -1001482814098: أخبار نابلس
-2025-07-16 22:54:07,896 - INFO - Found group with ID -1002342323858: חדשות שכם
-2025-07-16 22:54:07,897 - INFO - Fetching messages after message ID 257310
-2025-07-16 22:54:08,215 - INFO - No new messages to process.
+2025-07-17 00:31:05,819 - INFO - Using session file: Session601384
+2025-07-17 00:31:05,926 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-17 00:31:06,024 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-17 00:31:07,622 - INFO - Found group with ID -1001482814098: أخبار نابلس
+2025-07-17 00:31:08,131 - INFO - Found group with ID -1002342323858: חדשות שכם
+2025-07-17 00:31:08,131 - INFO - Fetching messages after message ID 257322
+2025-07-17 00:31:08,315 - INFO - No new messages to process.

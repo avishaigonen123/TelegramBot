@@ -1,7 +1,7 @@
-2025-07-16 22:54:06,531 - INFO - Using session file: gonenSession959215
-2025-07-16 22:54:06,629 - INFO - Connecting to 149.154.167.91:443/TcpFull...
-2025-07-16 22:54:06,731 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
-2025-07-16 22:54:08,625 - INFO - Found group with ID -1001351218719: قناة الأقصى
-2025-07-16 22:54:09,038 - INFO - Found group with ID -1002027365084: חדשות פל0טין
-2025-07-16 22:54:09,038 - INFO - Fetching messages after message ID 354158
-2025-07-16 22:54:09,151 - INFO - No new messages to process.
+2025-07-17 00:31:05,418 - INFO - Using session file: gonenSession12432
+2025-07-17 00:31:05,619 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-17 00:31:05,717 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-17 00:31:07,132 - INFO - Found group with ID -1001351218719: قناة الأقصى
+2025-07-17 00:31:07,720 - INFO - Found group with ID -1002027365084: חדשות פל0טין
+2025-07-17 00:31:07,720 - INFO - Fetching messages after message ID 354179
+2025-07-17 00:31:07,915 - INFO - No new messages to process.

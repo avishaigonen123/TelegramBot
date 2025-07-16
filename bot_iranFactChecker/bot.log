@@ -1,7 +1,7 @@
-2025-07-16 22:54:06,324 - INFO - Using session file: Session17331
-2025-07-16 22:54:06,426 - INFO - Connecting to 149.154.167.92:443/TcpFull...
-2025-07-16 22:54:06,528 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
-2025-07-16 22:54:07,856 - INFO - Found group with ID -1001872325181: فکت‌پرس
-2025-07-16 22:54:08,422 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
-2025-07-16 22:54:08,422 - INFO - Fetching messages after message ID 733
-2025-07-16 22:54:08,552 - INFO - No new messages to process.
+2025-07-17 00:31:05,121 - INFO - Using session file: Session991345
+2025-07-17 00:31:05,515 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-17 00:31:05,612 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-17 00:31:07,022 - INFO - Found group with ID -1001872325181: فکت‌پرس
+2025-07-17 00:31:07,341 - INFO - Found group with ID -1002725795624: בדיקת עובדות חומוס מזרח תיכון
+2025-07-17 00:31:07,342 - INFO - Fetching messages after message ID 733
+2025-07-17 00:31:07,475 - INFO - No new messages to process.

@@ -1,3 +1,4 @@
+from datetime import datetime
 import sys
 import logging
 from config import API_ID, API_HASH, SOURCE_CHANNEL_ID, DEST_CHANNEL_ID, PHONE_NUMBER
@@ -8,7 +9,7 @@ from utils import (
     find_group,
     connect_to_client,
     filter_messages,
-    get_time_range
+    get_last_12_hours_range
 )
 
 logging.basicConfig(level=logging.INFO)
@@ -21,7 +22,7 @@ async def main():
     Main bot logic:
     - Finds source and destination channels
     - Fetches messages
-    - Filters messages by time range (day/night)
+    - Filters last 12 hours messages
     - Summarizes and sends to destination
     """
     logging.info("Starting the bot...")
@@ -34,9 +35,12 @@ async def main():
 
     all_messages = await fetch_messages(client, source_channel, NUM_OF_MESSAGES)
 
-    # Get period from command-line argument: "day" or "night"
-    period = sys.argv[1] if len(sys.argv) > 1 and sys.argv[1] == "night" else "day"
-    start_dt, end_dt = get_time_range(period)
+    if datetime.now().hour < 12:
+        period = "day"
+    else:
+        period = "night"
+    start_dt, end_dt = get_last_12_hours_range()
+
 
     filtered_messages = filter_messages(all_messages, start_dt, end_dt)
 

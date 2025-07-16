@@ -58,23 +58,15 @@ async def send_message(client, summary, destination_channel):
 
 # --- Message Filtering Utilities ---
 
-def get_time_range(period):
+def get_last_12_hours_range():
     """
-    Get start and end datetime objects for the requested period ("day" or "night").
-    "day": 8AM to 8PM today
-    "night": 8PM yesterday to 8AM today
+    Returns the datetime range for the last 12 hours in Asia/Jerusalem timezone.
     """
     tz = pytz.timezone('Asia/Jerusalem')
     now = datetime.now(tz)
-    if period == "day":
-        start = now.replace(hour=8, minute=0, second=0, microsecond=0)
-        end = now.replace(hour=20, minute=0, second=0, microsecond=0)
-    elif period == "night":
-        start = (now - timedelta(days=1)).replace(hour=20, minute=0, second=0, microsecond=0)
-        end = now.replace(hour=8, minute=0, second=0, microsecond=0)
-    else:
-        raise ValueError("period must be 'day' or 'night'")
-    return start, end
+    start = now - timedelta(hours=12)
+    return start, now
+
 
 def filter_messages(collected_messages, start_dt, end_dt):
     """

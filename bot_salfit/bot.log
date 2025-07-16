@@ -1,7 +1,7 @@
-2025-07-16 22:54:06,117 - INFO - Using session file: gonenSession179476
-2025-07-16 22:54:06,226 - INFO - Connecting to 149.154.167.91:443/TcpFull...
-2025-07-16 22:54:06,325 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
-2025-07-16 22:54:07,630 - INFO - Found group with ID -1001868918178: راديو الزيتونة 91.6 - سلفيت
-2025-07-16 22:54:08,141 - INFO - Found group with ID -1002847897048: חדשות סלפית
-2025-07-16 22:54:08,141 - INFO - Fetching messages after message ID 42673
-2025-07-16 22:54:08,316 - INFO - No new messages to process.
+2025-07-17 00:31:05,719 - INFO - Using session file: gonenSession179476
+2025-07-17 00:31:05,826 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-17 00:31:05,921 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-17 00:31:07,068 - INFO - Found group with ID -1001868918178: راديو الزيتونة 91.6 - سلفيت
+2025-07-17 00:31:07,620 - INFO - Found group with ID -1002847897048: חדשות סלפית
+2025-07-17 00:31:07,620 - INFO - Fetching messages after message ID 42674
+2025-07-17 00:31:07,831 - INFO - No new messages to process.

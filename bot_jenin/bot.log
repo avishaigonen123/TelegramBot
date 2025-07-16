@@ -1,7 +1,7 @@
-2025-07-16 22:54:05,421 - INFO - Using session file: gonenSession165136
-2025-07-16 22:54:05,717 - INFO - Connecting to 149.154.167.91:443/TcpFull...
-2025-07-16 22:54:05,815 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
-2025-07-16 22:54:07,452 - INFO - Found group with ID -1001236978606: Jenin News | أخبار جنين
-2025-07-16 22:54:07,923 - INFO - Found group with ID -1002046754990: חדשות ג'נין
-2025-07-16 22:54:07,923 - INFO - Fetching messages after message ID 155017
-2025-07-16 22:54:08,128 - INFO - No new messages to process.
+2025-07-17 00:31:05,316 - INFO - Using session file: gonenSession407480
+2025-07-17 00:31:05,522 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-17 00:31:05,621 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-17 00:31:07,118 - INFO - Found group with ID -1001236978606: Jenin News | أخبار جنين
+2025-07-17 00:31:07,620 - INFO - Found group with ID -1002046754990: חדשות ג'נין
+2025-07-17 00:31:07,620 - INFO - Fetching messages after message ID 155032
+2025-07-17 00:31:07,730 - INFO - No new messages to process.

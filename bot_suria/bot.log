@@ -1,7 +1,7 @@
-2025-07-16 22:54:06,624 - INFO - Using session file: gonenSession61396
-2025-07-16 22:54:06,645 - INFO - Connecting to 149.154.167.91:443/TcpFull...
-2025-07-16 22:54:06,744 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
-2025-07-16 22:54:08,319 - INFO - Found group with ID -1001690672111: أرشيف الثورة السورية
-2025-07-16 22:54:08,828 - INFO - Found group with ID -1002431293868: חדשות המורדים
-2025-07-16 22:54:08,828 - INFO - Fetching messages after message ID 7721
-2025-07-16 22:54:08,933 - INFO - No new messages to process.
+2025-07-17 00:31:06,141 - INFO - Using session file: gonenSession407480
+2025-07-17 00:31:06,163 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-17 00:31:06,265 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-17 00:31:08,027 - INFO - Found group with ID -1001690672111: أرشيف الثورة السورية
+2025-07-17 00:31:08,536 - INFO - Found group with ID -1002431293868: חדשות המורדים
+2025-07-17 00:31:08,536 - INFO - Fetching messages after message ID 7721
+2025-07-17 00:31:08,671 - INFO - No new messages to process.

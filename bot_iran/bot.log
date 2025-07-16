@@ -1,7 +1,7 @@
-2025-07-16 22:54:06,531 - INFO - Using session file: gonenSession61396
-2025-07-16 22:54:06,627 - INFO - Connecting to 149.154.167.91:443/TcpFull...
-2025-07-16 22:54:06,725 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
-2025-07-16 22:54:08,145 - INFO - Found group with ID -1001007007698: آخرین خبر
-2025-07-16 22:54:08,729 - INFO - Found group with ID -1002731389470: חדשות איראן
-2025-07-16 22:54:08,730 - INFO - Fetching messages after message ID 523903
-2025-07-16 22:54:08,844 - INFO - No new messages to process.
+2025-07-17 00:31:05,915 - INFO - Using session file: gonenSession407480
+2025-07-17 00:31:05,937 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-17 00:31:06,036 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-17 00:31:07,154 - INFO - Found group with ID -1001007007698: آخرین خبر
+2025-07-17 00:31:07,725 - INFO - Found group with ID -1002731389470: חדשות איראן
+2025-07-17 00:31:07,726 - INFO - Fetching messages after message ID 523907
+2025-07-17 00:31:07,850 - INFO - No new messages to process.

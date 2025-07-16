@@ -1,7 +1,7 @@
-2025-07-16 22:54:06,419 - INFO - Using session file: gonenSession407480
-2025-07-16 22:54:06,531 - INFO - Connecting to 149.154.167.91:443/TcpFull...
-2025-07-16 22:54:06,629 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
-2025-07-16 22:54:07,928 - INFO - Found group with ID -1002062736232: نايا - NAYA
-2025-07-16 22:54:08,527 - INFO - Found group with ID -1002771514356: אוסינט NAYA
-2025-07-16 22:54:08,527 - INFO - Fetching messages after message ID 35428
-2025-07-16 22:54:08,816 - INFO - No new messages to process.
+2025-07-17 00:31:05,719 - INFO - Using session file: gonenSession178987
+2025-07-17 00:31:05,918 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-17 00:31:06,016 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-17 00:31:07,155 - INFO - Found group with ID -1002062736232: نايا - NAYA
+2025-07-17 00:31:07,725 - INFO - Found group with ID -1002771514356: אוסינט NAYA
+2025-07-17 00:31:07,725 - INFO - Fetching messages after message ID 35434
+2025-07-17 00:31:07,833 - INFO - No new messages to process.

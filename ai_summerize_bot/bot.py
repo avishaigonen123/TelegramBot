@@ -9,7 +9,8 @@ from utils import (
     find_group,
     connect_to_client,
     filter_messages,
-    get_last_12_hours_range
+    get_last_12_hours_range,
+    get_channel_link
 )
 
 logging.basicConfig(level=logging.INFO)
@@ -29,22 +30,20 @@ async def main():
     source_channel = await find_group(client, SOURCE_CHANNEL_ID)
     destination_channel = await find_group(client, DEST_CHANNEL_ID)
 
+    destination_channel_link = await get_channel_link(client, DEST_CHANNEL_ID)
+
     if not source_channel or not destination_channel:
         logging.error("Could not find source or destination channel.")
         return
 
     all_messages = await fetch_messages(client, source_channel, NUM_OF_MESSAGES)
 
-    if datetime.now().hour < 12:
-        period = "day"
-    else:
-        period = "night"
-    start_dt, end_dt = get_last_12_hours_range()
 
+    start_dt, end_dt = get_last_12_hours_range()
 
     filtered_messages = filter_messages(all_messages, start_dt, end_dt)
 
-    summary = await summarize(filtered_messages, period)
+    summary = await summarize(filtered_messages, destination_channel_link)
     if not summary:
         logging.info("empty summary, nothing to send.")
         return

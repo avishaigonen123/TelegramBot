@@ -1,4 +1,5 @@
 import logging
+import pytz
 import requests
 from datetime import datetime
 from config import OPEN_ROUTER_TOKEN
@@ -23,9 +24,9 @@ def process_with_deepseek(text: str, destination_channel_link: str) -> str:
     """
     Send a summary request to DeepSeek API and return the formatted summary.
     """
-    now = datetime.now()
+    now = datetime.now(pytz.timezone('Asia/Jerusalem'))
     hour_str = now.strftime("%H:%M")
-    hour = datetime.now().hour
+    hour = now.hour
 
     if hour < 12:
         period_title = f"🌞 חדשות הבוקר (נכון לשעה {hour_str}):"

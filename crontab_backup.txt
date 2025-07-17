@@ -1,5 +1,6 @@
 #direct_crons enabled. Safe to edit this file. DirectAdmin will update accordingly.
 MAILTO=""
+CRON_TZ="Asia/Jerusalem"
 PATH=/usr/local/php81/bin:/home/gmxceisz/.local/bin:/home/gmxceisz/bin:/usr/pgsql-14/bin:/usr/pgsql-14/bin:/usr/pgsql-14/bin:/usr/pgsql-14/bin:/usr/pgsql-14/bin:/usr/share/Modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
 # clean logs
 0 1 * * * find /home/gmxceisz/TelegramBot/bots/bot_*/bot.log -type f -size +2M -exec truncate -s 0 {} \;

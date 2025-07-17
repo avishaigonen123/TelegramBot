@@ -17,9 +17,11 @@ BOT_FOLDERS=(
     bot_salfit
 )
 
+BASE_DIR="/home/$(whoami)/TelegramBot/bots"
+
 # Run each bot's script
 for bot in "${BOT_FOLDERS[@]}"; do
-    SCRIPT="./$bot/script_ai_bot.sh"
+    SCRIPT="$BASE_DIR/$bot/script_ai_bot.sh"
     if [[ -x "$SCRIPT" ]]; then
         echo "Running $bot..."
         bash "$SCRIPT" >> logs/${bot}.log 2>&1 &

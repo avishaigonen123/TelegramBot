@@ -14,7 +14,7 @@ BOT_DIRS=(
     "bot_salfit"
 )
 
-BASE_DIR="/home/gmxceisz/TelegramBot"
+BASE_DIR="/home/$(whoami)/TelegramBot/bots"
 
 # Run each bot's script_bot.sh if it exists
 for bot in "${BOT_DIRS[@]}"; do

@@ -5,6 +5,7 @@ import os
 import glob
 import random
 from telethon import TelegramClient
+from telethon.tl.functions.messages import ExportChatInviteRequest
 
 logging.basicConfig(level=logging.INFO)
 
@@ -97,3 +98,15 @@ def filter_messages(collected_messages, start_dt, end_dt):
             logging.error(f"Error processing message ID {i.id}: {e}")
 
     return filtered
+
+async def get_channel_link(client, channel_id):
+    try:
+        # Get the channel entity
+        channel = await client.get_entity(channel_id)
+        
+        # Export the invite link for the private channel
+        invite_link = await client(ExportChatInviteRequest(channel))
+
+        return invite_link.link
+    except Exception as e:
+        print(f"Error: {e}")

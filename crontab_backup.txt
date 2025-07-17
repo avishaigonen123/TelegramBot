@@ -8,11 +8,12 @@ PATH=/usr/local/php81/bin:/home/gmxceisz/.local/bin:/home/gmxceisz/bin:/usr/pgsq
 * * * * * /home/gmxceisz/TelegramBot/run_all_bots.sh
 # run ai bots
 0 8 * * * /home/gmxceisz/TelegramBot/run_all_ai_bots.sh > /dev/null 2>&1
+20 10 * * * /home/gmxceisz/TelegramBot/run_all_ai_bots.sh > /dev/null 2>&1
 30 15 * * * /home/gmxceisz/TelegramBot/run_all_ai_bots.sh > /dev/null 2>&1
 0 21 * * * /home/gmxceisz/TelegramBot/run_all_ai_bots.sh > /dev/null 2>&1
 
 # Testing
-* * * * * /home/gmxceisz/TelegramBot/bot_nablus/script_ai_bot.sh > /dev/null 2>&1
+# * * * * * /home/gmxceisz/TelegramBot/bot_nablus/script_ai_bot.sh > /dev/null 2>&1
 
 
 

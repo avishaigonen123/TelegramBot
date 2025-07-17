@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Go to the directory this script is in
-cd "$(dirname "$0")"
+BASE_DIR="/home/$(whoami)/TelegramBot/bots/$0"
 
 # Set PYTHONPATH to this directory (for config.py)
-PYTHONPATH="." python3 /home/gmxceisz/TelegramBot/ai_summerize_bot/bot.py
+echo "Setting PYTHONPATH to $(pwd)"
+PYTHONPATH="$(pwd)" python3 /home/gmxceisz/TelegramBot/ai_summerize_bot/bot.py

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start from the current directory
-START_DIR=$(pwd)
+START_DIR="/home/$(whoami)/TelegramBot/bots"
 
 # Loop through all non-hidden subdirectories
 for dir in $(find $START_DIR -type d -not -path '*/\.*'); do

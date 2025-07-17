@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Save current directory
-root_dir=$(pwd)
+BASE_DIR="/home/$(whoami)/TelegramBot/bots"
 
 # Loop over each bot_* folder
-for dir in bot_*/ ; do
+for dir in "$BASE_DIR"/bot_*/ ; do
     echo "📂 Entering $dir"
     cd "$dir" || continue
 
@@ -16,7 +16,7 @@ for dir in bot_*/ ; do
     fi
 
     # Return to root directory
-    cd "$root_dir"
+    cd "$BASE_DIR" 
     echo ""
 done
 

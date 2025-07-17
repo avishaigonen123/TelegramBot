@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Path to the original script_ai_bot.sh file
+# Path to the original script.sh file
 source_file=$1
 
 if [[ -z "$source_file" ]]; then
-    echo "Usage: $0 <path_to_script_ai_bot.sh>"
+    echo "Usage: $0 <path_to_script.sh>"
     exit 1
 fi
 
@@ -14,11 +14,13 @@ if [[ ! -f "$source_file" ]]; then
     exit 1
 fi
 
+BASE_DIR="/home/$(whoami)/TelegramBot/bots"
+
 # Find all non-hidden directories matching the pattern bot_*
-for dir in bot_*/; do
+for dir in "$BASE_DIR"/bot_*/; do
   # Check if the directory name does not start with a dot (hidden directory)
   if [[ ! "$dir" =~ /[.]/ ]]; then
-    # Force copy (overwrite) the script_ai_bot.sh file if it exists
+    # Force copy (overwrite) the script.sh file if it exists
     cp -f "$source_file" "$dir"
     echo "Copied $source_file to $dir"
   fi

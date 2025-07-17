@@ -1,13 +1,17 @@
-# remove config files
+# Ignore all log files
+*.log
+
+# Ignore all last_id.txt files
+last_id.txt
+
+# Ignore config files
 */config.py
 
-#remove sessions files
+# Ignore sessions files
 *.session
-#remove session journal files
+
+# Ignore session journal files
 *.session-journal
 
-#remove python cache
+# Ignore Python cache
 __pycache__/
-
-#remove log files
-*.log

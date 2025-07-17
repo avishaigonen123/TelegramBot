@@ -3,19 +3,11 @@ from telethon.tl.types import PeerChannel
 import asyncio
 from config import API_ID, API_HASH, SOURCE_CHANNEL_ID, DEST_CHANNEL_ID, PHONE_NUMBER
 import logging
-import datetime
-import pytz
 import os
 import random
 import glob
 
-# Timezone-aware logging (Israel Standard Time)
-logging.basicConfig(level=logging.INFO, filename='bot.log', filemode='a',
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-formatter.converter = lambda *args, **kwargs: datetime.now(pytz.timezone('Asia/Jerusalem')).timetuple()
-for handler in logging.getLogger().handlers:
-    handler.setFormatter(formatter)
+logging.basicConfig(level=logging.INFO)
 
 # Load config
 api_id = API_ID

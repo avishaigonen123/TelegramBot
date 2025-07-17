@@ -5,7 +5,7 @@
 last_id.txt
 
 # Ignore config files
-*/config.py
+config.py*
 
 # Ignore sessions files
 *.session

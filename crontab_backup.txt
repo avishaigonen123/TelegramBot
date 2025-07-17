@@ -1,0 +1,11 @@
+#direct_crons enabled. Safe to edit this file. DirectAdmin will update accordingly.
+MAILTO=""
+PATH=/usr/local/php81/bin:/home/gmxceisz/.local/bin:/home/gmxceisz/bin:/usr/pgsql-14/bin:/usr/pgsql-14/bin:/usr/pgsql-14/bin:/usr/pgsql-14/bin:/usr/pgsql-14/bin:/usr/share/Modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
+* * * * * /home/gmxceisz/TelegramBot/run_all_bots.sh
+0 1 * * * find /home/gmxceisz/TelegramBot/bot_*/bot.log -type f -size +2M -exec truncate -s 0 {} \;
+0 1 * * * find /home/gmxceisz/TelegramBot/logs/*.log -type f -size +2M -exec truncate -s 0 {} \;
+#0 8 * * * /home/gmxceisz/TelegramBot/run_all_ai_bots.sh > /dev/null 2>&1
+6 9 * * * /home/gmxceisz/TelegramBot/run_all_ai_bots.sh
+30 15 * * * /home/gmxceisz/TelegramBot/run_all_ai_bots.sh > /dev/null 2>&1
+0 21 * * * /home/gmxceisz/TelegramBot/run_all_ai_bots.sh > /dev/null 2>&1
+

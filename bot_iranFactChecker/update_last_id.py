@@ -7,6 +7,7 @@ import datetime
 import pytz
 import os
 import random
+import glob
 
 # Timezone-aware logging (Israel Standard Time)
 logging.basicConfig(level=logging.INFO, filename='bot.log', filemode='a',

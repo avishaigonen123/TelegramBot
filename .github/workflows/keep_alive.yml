@@ -1,0 +1,25 @@
+name: webhostmost keep-alive
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # once a day, 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  reset-suspension-timer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install selenium webdriver-manager python-dotenv
+
+      - name: Run keep-alive login
+        env:
+          WEBHOSTMOST_EMAIL: ${{ secrets.WEBHOSTMOST_EMAIL }}
+          WEBHOSTMOST_PASSWORD: ${{ secrets.WEBHOSTMOST_PASSWORD }}
+        run: python keep_server_alive/login.py

@@ -1,0 +1,12 @@
+[
+  {"name": "iran", "source_id": -1001007007698, "dest_id": -1002731389470},
+  {"name": "iranFactChecker", "source_id": -1001872325181, "dest_id": -1002725795624},
+  {"name": "jenin", "source_id": -1001236978606, "dest_id": -1002046754990},
+  {"name": "kalkilia", "source_id": -1001787475137, "dest_id": -1002326625056},
+  {"name": "nablus", "source_id": -1001482814098, "dest_id": -1002342323858},
+  {"name": "osintNAYA", "source_id": -1002062736232, "dest_id": -1002771514356},
+  {"name": "palastine", "source_id": -1001351218719, "dest_id": -1002027365084},
+  {"name": "salfit", "source_id": -1001868918178, "dest_id": -1002847897048},
+  {"name": "suria", "source_id": -1001690672111, "dest_id": -1002431293868},
+  {"name": "tubas", "source_id": -1001865897759, "dest_id": -1002372720969}
+]

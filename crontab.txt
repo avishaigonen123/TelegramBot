@@ -1,0 +1,13 @@
+# Direct Admin / cPanel crontab for the consolidated TelegramBot service.
+# Replace the old crontab_backup.txt entirely with this file's contents.
+
+MAILTO=""
+CRON_TZ="Asia/Jerusalem"
+
+# Translate + forward: one consolidated process, all channels, every minute.
+* * * * * cd /home/xdfqunme/TelegramBot && /usr/bin/python3 bot/run_tick.py
+
+# Truncate the log if it grows past 2MB.
+0 1 * * * find /home/xdfqunme/TelegramBot/bot.log -type f -size +2M -exec truncate -s 0 {} \;
+
+# ai_summerize_bot remains deferred/unscheduled -- see README.md.

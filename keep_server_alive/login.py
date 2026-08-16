@@ -1,11 +1,18 @@
+import os
+import time
+from datetime import datetime
+
+from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-import time
-from datetime import datetime
+
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"))
+WEBHOSTMOST_EMAIL = os.environ["WEBHOSTMOST_EMAIL"]
+WEBHOSTMOST_PASSWORD = os.environ["WEBHOSTMOST_PASSWORD"]
 
 # Set up headless Chrome
 options = Options()
@@ -29,8 +36,8 @@ try:
     driver.get("https://client.webhostmost.com/login")
     email_field = driver.find_element(By.NAME, "username")
     password_field = driver.find_element(By.NAME, "password")
-    email_field.send_keys("example@gmail.com")  # Replace with your actual email
-    password_field.send_keys("password")  # Replace with your actual password
+    email_field.send_keys(WEBHOSTMOST_EMAIL)
+    password_field.send_keys(WEBHOSTMOST_PASSWORD)
     password_field.send_keys(Keys.RETURN)
 
     time.sleep(5)
